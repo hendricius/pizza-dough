@@ -143,3 +143,12 @@ Topping/baking is beyond this guide. But you ideally want to bake the pizza in a
 Make sure you pre-heated the oven to maximum temperature. If your oven has a grill function, activate that one. Wait until your pizza turned brown on the edge. Enjoy!
 
 ![A pizza Margherita](https://i.imgur.com/zH36flU.jpg)
+
+### Code Visualization:
+
+Here is a cool visualization of the code evolution
+
+ [![Watch the video](https://img.youtube.com/vi/9w_WAKSKYWw/0.jpg)](https://www.youtube.com/watch?v=9w_WAKSKYWw)
+
+ [https://www.youtube.com/watch?v=9w_WAKSKYWw](https://www.youtube.com/watch?v=9w_WAKSKYWw)
+
