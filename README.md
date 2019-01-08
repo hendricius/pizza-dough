@@ -67,7 +67,7 @@ We will perform another stretch and fold. Note how the dough is now even less st
 
 **1:30: Stretch and fold 3**
 
-Another stretch and fold. Compare the difference between the folds. Your dough should be even more sticky now.
+Another stretch and fold. Compare the difference between the folds. Your dough should be even less sticky now.
 
 **2:00: Stretch and fold 4**
 
