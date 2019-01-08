@@ -16,7 +16,7 @@ The traditional Italian workflow has always been to create the dough on the nigh
 
 ## Ingredients
 
-To the novice pizza baker it is surprising how few ingredients you need to make a pizza dough.
+To the novice pizza baker it is surprising how few ingredients you need to make a pizza dough. The following percentages are by mass of the flour that you utilise:
 
 * Flour
 * 65.00% Warm Water
