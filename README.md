@@ -1,6 +1,6 @@
 # Pizza Dough
 
-This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Valdaora`. For years I have been obsessed with tasting different pizzas, observing how the chefs make the dough. I have tried endless times, discussed with people from all over the world. This repo is dedicated to sharing my quest of figuring out the best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
+This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Valdaora`. For years I have been obsessed with tasting different pizzas, observing how the *pizzaioli* make the dough. I have tried endless times, discussed with people from all over the world. This repo is dedicated to sharing my quest of figuring out the best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
 
 ![Me making a nice pizza](https://i.imgur.com/x2jxzde.jpg)
 
@@ -12,7 +12,7 @@ However the Neapolitan pizza association (Associazione Verace Pizza Napoletana) 
 
 If you look at the popular brand `Caputo` it started selling its wheat flour in 1924. New kinds of flour have been developed using radioactivity, or toxins. This resulted in faster genetic mutations which then increased the yield of the crop. So it can be argued that when pizza was created new flour and modern yeast had already been available. Using yeast is easier than sourdough, since you have less variables you need to control. For example if fermented too long a sourdough have a negative impact on the gluten structure of the dough. These factors can be more easily controlled with regular yeast.
 
-The traditional Italian workflow has always been to create the dough on the night before baking the pizza. This is one of the core features of creating a dough that has a great taste on its own. In fact - you could just bake the whole dough as a bread and it would taste awesome. A combination of room temperature fermentation and cold fermentation creates special enzymes which foster the complex but very pleasant taste of the pizza dough.
+The traditional Neapolitan workflow has always been to create the dough on the night before baking the pizza. This is one of the core features of creating a dough that has a great taste on its own. In fact - you could just bake the whole dough as a bread and it would taste awesome. A combination of room temperature fermentation and cold fermentation creates special enzymes which foster the complex but very pleasant taste of the pizza dough.
 
 ## Ingredients
 
@@ -31,7 +31,7 @@ Now to make things a little easier I created a small dough calculator, that will
 
 ## Picking the right flour
 
-There is an additional chapter dedicated to picking the right flour. The flour is the essential ingredient of your dough. It can all start very well with the right flour but can go totally wrong with the wrong flour. The experienced pizza baker is able to work around some of the deficits of the flour, but for a novice this can be the factor between epic success or big ass fail.
+There is an additional chapter dedicated to picking the right flour. The flour is the essential ingredient of your dough. It can all start very well with the right flour but can go totally wrong with the wrong flour. The experienced *pizzaiolo* is able to work around some of the deficits of the flour, but for a novice this can be the factor between epic success or big ass fail.
 
 The rule of thumb: **Pick a flour that has high protein content.**
 
@@ -41,7 +41,7 @@ You want as much protein in your bread as possible. The flour you should be look
 
 ## Making the dough
 
-The trick to making an excellent pizza is time. Good things take time. If you observe Italian restaurants you will notice that most of them make the dough the night before. They allow their dough time to develop flavour and strength. Enzymatic reactions conducted by the yeast are the reason for flavour. Time allows your dough to develop a stronger gluten network. A strong gluten network is your goal to allow the dough to stick together, hold the gas the yeast creates plus make an excellent surface for your toppings. Yes - you can speed things up by using more yeast, but if possible - I advise to make your dough 24 hours before you plan to make the pizza. My kitchen usually has a solid 20°C throughout the whole year. Depending on the temperature the yeast is either more active, or less active. Warmer temperature makes the yeast more active. Colder temperature reduces the process. You can alter the initial speed by using warmer or colder water.
+The trick to making an excellent pizza is time. Good things take time. If you observe Italian pizzerias you will notice that most of them make the dough the night or even 24/48 hours before. They allow their dough time to develop flavour and strength. Enzymatic reactions conducted by the yeast are the reason for flavour. Time allows your dough to develop a stronger gluten network. A strong gluten network is your goal to allow the dough to stick together, hold the gas the yeast creates plus make an excellent surface for your toppings. Yes - you can speed things up by using more yeast, but if possible - I advise to make your dough 24 hours before you plan to make the pizza. My kitchen usually has a solid 20°C throughout the whole year. Depending on the temperature the yeast is either more active, or less active. Warmer temperature makes the yeast more active. Colder temperature reduces the process. You can alter the initial speed by using warmer or colder water.
 
 The following chapter will assume a 24 hour cycle to make the dough. In my case that would usually be 8 pm, if I wanted to bake the day after at 8pm.
 
@@ -133,13 +133,13 @@ Start pressing the dough downwards slightly, starting from the center. That way 
 
 Lift the pizza into the air at one edge. The dough should start spreading. The center should become more and more transparent of your dough. You can see me doing this at the first picture in the guide. Turn the pizza to allow the dough to evenly stretch. If some of the areas are still too thick, stretch that area with your hand by pulling the dough apart. The inner part of the pizza should be around 1 to max 2mm in size. See the first picture again.
 
-Other ways to achieve the same thing would be to flap the pizza. Although I personally do not like this as much, as you will degas the dough more than with this technique. Another technique is to [throw the pizza into the air and use gravity to stretch it](https://youtu.be/ZHq-gFDodxg). It's a little advanced but makes you look like a truly professional baker.
+Other ways to achieve the same thing would be to flap the pizza. Although I personally do not like this as much, as you will degas the dough more than with this technique. Another technique is to [throw the pizza into the air and use gravity to stretch it](https://youtu.be/ZHq-gFDodxg). It's a little advanced but makes you look like a truly professional *pizzaiolo*.
 
 Now the dough is done place it ideally on a wooden pizza peel covered in semolina flour. That allows the pizza to slide down the peel. It is important to top it quickly, less than 30 seconds. Else it will start sticking to the peel and you will create a huge mess.
 
 *Step 4:*
 Topping/baking is beyond this guide. But you ideally want to bake the pizza in a very hot oven. A pizza steel for the home oven is advised, a stone will do fine too. A tray is also fine. The steel is advised for home ovens as it can transfer heat faster to the pizza than the stone. If you reached 450°C like in a typical Italian stone oven, stone would be perfect.
 
-Make sure you pre-heated the oven to maximum temperature. If your oven has a grill function, activate that one. Wait until your pizza turned brown on the edge. Enjoy!
+Make sure you pre-heated the oven to maximum temperature. If your oven has a grill function, activate that one. Wait until your pizza turned brown on the edge. *Buon appetito!*
 
 ![A pizza Margherita](https://i.imgur.com/zH36flU.jpg)
