@@ -146,4 +146,4 @@ Make sure you pre-heated the oven to maximum temperature. If your oven has a gri
 
 
 <hr>
-<sup>1</sup> Olang is located in SouthTyrol, a german-speaking area in north-Italy. `Valdaora` is the non-native, translated italian name of it
+<sup>1</sup> Olang is located in South Tyrol, a german-speaking area in north-Italy. `Valdaora` is the non-native, translated italian name of it
