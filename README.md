@@ -147,3 +147,8 @@ Make sure you pre-heated the oven to maximum temperature. If your oven has a gri
 
 <hr>
 <sup>1</sup> Olang is located in South Tyrol, a german-speaking area in north-Italy. `Valdaora` is the non-native, translated italian name of it
+
+
+# Resources
+
+[RESOURCES.md](RESOURCES.md) gathers all external information we love about pizza dough and pizza in general. If it's a blog article, or a research paper, or anything related to pizza... It's there.
