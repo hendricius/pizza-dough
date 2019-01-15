@@ -21,7 +21,7 @@ To the novice pizza baker it is surprising how few ingredients you need to make 
 * Flour
 * 65.00% Warm Water
 * 2.00% Salt
-* 0.05% Dry yeast
+* 0.05% Dry yeast or 0.15% fresh yeast
 
 The quantity of the ingredients is always calculated based on the amount of flour that you are using. That way you can easily scale up the recipe and make more pizzas. This is called bakers math. It makes very easy to adjust the desired output of pizzas you want to bake.
 
