@@ -87,7 +87,7 @@ We will let the dough sit on your bench for 15 minutes without touching it.
 
 **12:15: Divide the dough**
 
-What you need for the next step is your scale again, a dough scraper (a knife will do), a sealable container (could also be a pot) plus some oil (I use olive oil).
+What you need for the next step is your scale again, a dough scraper (a knife will do), a sealable container (could also be a pot) plus some extra virgin olive oil.
 
 ![The setup for the next phase](https://i.imgur.com/xmh7QUZ.jpg)
 
