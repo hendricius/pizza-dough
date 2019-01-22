@@ -1,13 +1,44 @@
+html {
+  font-family: Lato;
+  font-style: normal;
+  background: #f8f8f8;
+}
+
+html,
+body,
+#root,
+.container,
+.result {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
   text-align: center;
+  margin: 0;
+}
+
+.logo {
+  margin: 0;
+}
+
+.main {
+  margin-left: 10vmin;
+  margin-right: 10vmin;
 }
 
 .submit {
+  margin-top: 10px;
+  margin-bottom: 10px;
   background: #ee5230;
   box-sizing: border-box;
   border: none;
@@ -28,6 +59,8 @@
 
 .form-group {
   position: relative;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -35,18 +68,31 @@
 .form-label {
   position: absolute;
   top: 0;
-  margin-top: 7px;
+  margin: 0.95rem;
   transition: all 200ms;
   background-color: white;
   padding-right: 5px;
   padding-left: 5px;
   left: 10px;
+  font-size: 1.1rem;
   opacity: 0.5;
   overflow: hidden;
   white-space: nowrap;
 }
 
-input:focus {
+.form-input {
+  width: 100%;
+  height: 3.1rem;
+  padding-left: 20px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+.form-input:focus {
   box-shadow: none !important;
   border-width: 2px;
   border-color: inset;
@@ -54,6 +100,18 @@ input:focus {
 
 .form-input:focus + .form-label,
 .form-input:valid + .form-label {
-  transform: scale(0.75) translateY(-25px) translateX(-17%);
+  transform: scale(0.85) translateY(-2rem) translateX(-20%);
   opacity: 1;
+}
+
+.text-muted {
+  margin-top: 10px;
+}
+
+.result {
+  background: #ee5230;
+}
+
+.link {
+  text-align: center;
 }

@@ -34,26 +34,28 @@ const Result = props => {
   const flourPerPizza = pizzaWeight / totalPercent;
   const totalFlour = flourPerPizza * pizzaCount;
   return (
-    <>
-      <Link to="/">Back</Link>
-      <h4>
-        Required ingredients for {pizzaCount} pizzas x {pizzaWeight}g
-      </h4>
-      <table className="table table-bordered">
-        <tbody>
-          {ingredients.map((ing, i) => {
-            return (
-              <Ingredient
-                key={i}
-                name={ing.name}
-                percentage={ing.percentage}
-                totalFlour={totalFlour}
-              />
-            );
-          })}
-        </tbody>
-      </table>
-    </>
+    <div className="result">
+      <main>
+        <Link to="/">Back</Link>
+        <h4>
+          Required ingredients for {pizzaCount} pizzas x {pizzaWeight}g
+        </h4>
+        <table className="table table-bordered">
+          <tbody>
+            {ingredients.map((ing, i) => {
+              return (
+                <Ingredient
+                  key={i}
+                  name={ing.name}
+                  percentage={ing.percentage}
+                  totalFlour={totalFlour}
+                />
+              );
+            })}
+          </tbody>
+        </table>
+      </main>
+    </div>
   );
 };
 

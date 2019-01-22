@@ -28,15 +28,15 @@ export default class Calculator extends React.Component {
   render() {
     return (
       <>
-        <header>
-          <h1 className="header">
+        <header className="header">
+          <h1 className="logo">
             <img src="/logo.svg" alt="Pizza Dough" />
           </h1>
-          <h2 className="header">
+          <h2 className="logo">
             <img src="/calculator.svg" alt="Calculator" />
           </h2>
         </header>
-        <main>
+        <main className="main">
           <form onSubmit={this.calculate}>
             <div className="form-group">
               <input
@@ -47,10 +47,7 @@ export default class Calculator extends React.Component {
                 required
               />
               <label htmlFor="count" className="form-label">
-                Number of pizzas{" "}
-                <span role="img" aria-label="">
-                  🍕
-                </span>
+                Number of pizzas
               </label>
             </div>
             <div className="form-group">
@@ -64,7 +61,7 @@ export default class Calculator extends React.Component {
               <label className="form-label" htmlFor="name">
                 Weight per pizza (grams)
               </label>
-              <small className="form-text text-muted">
+              <small className="text-muted">
                 Typically between 200 and 250 grams. For a home oven 200 grams
                 is recommended.
               </small>
@@ -73,7 +70,14 @@ export default class Calculator extends React.Component {
               Calculate
             </button>
           </form>
-          <Link to="/info">More</Link>
+          <div className="link">
+            <Link to="/info">
+              More info{" "}
+              <span role="img" aria-label="">
+                ℹ️
+              </span>
+            </Link>
+          </div>
         </main>
       </>
     );

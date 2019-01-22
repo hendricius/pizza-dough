@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route } from "react-router-dom";
 
-import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
 
