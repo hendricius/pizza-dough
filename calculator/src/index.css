@@ -6,3 +6,54 @@
 .header {
   text-align: center;
 }
+
+.submit {
+  background: #ee5230;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  padding: 8px;
+  width: 100%;
+
+  cursor: pointer;
+
+  font-weight: medium;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  margin-top: 7px;
+  transition: all 200ms;
+  background-color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  left: 10px;
+  opacity: 0.5;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+input:focus {
+  box-shadow: none !important;
+  border-width: 2px;
+  border-color: inset;
+}
+
+.form-input:focus + .form-label,
+.form-input:valid + .form-label {
+  transform: scale(0.75) translateY(-25px) translateX(-17%);
+  opacity: 1;
+}

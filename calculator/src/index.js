@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
+import registerServiceWorker from "./registerServiceWorker";
 
 import Result from "./components/Result";
 import MoreInfo from "./components/MoreInfo";
@@ -19,3 +20,4 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
+registerServiceWorker();

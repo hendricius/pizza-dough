@@ -18,48 +18,63 @@ export default class Calculator extends React.Component {
     this.setState({ pizzaCount: e.target.value });
   };
 
+  calculate = e => {
+    e.preventDefault();
+    this.props.history.push(
+      `/result?weight=${this.state.pizzaWeight}&count=${this.state.pizzaCount}`
+    );
+  };
+
   render() {
     return (
       <>
-        <h1 className="header">
-          <img src="/logo.svg" style={{ color: "white" }} alt="Pizza Dough" />
-        </h1>
-        <h2 className="header">
-          <img src="/calculator.svg" alt="Calculator" />
-        </h2>
-        <Link to="/info">More</Link>
-
-        <div className="form-group">
-          <label>How many pizzas do you want to make?</label>
-          <input
-            type="number"
-            className="form-control"
-            placeholder="Number of pizzas 🍕"
-            value={this.state.pizzaCount}
-            onChange={this.handlePizzaCountChange}
-          />
-        </div>
-        <div className="form-group">
-          <label>Desired weight per pizza in grams</label>
-          <input
-            type="number"
-            className="form-control"
-            placeholder="Weight per pizza (grams)"
-            value={this.state.pizzaWeight}
-            onChange={this.handlePizzaWeightChange}
-          />
-          <small className="form-text text-muted">
-            Typically between 200 and 250 grams. For a home oven 200 grams is
-            recommended.
-          </small>
-        </div>
-        <Link
-          to={`/result?weight=${this.state.pizzaWeight}&count=${
-            this.state.pizzaCount
-          }`}
-        >
-          Calculate
-        </Link>
+        <header>
+          <h1 className="header">
+            <img src="/logo.svg" alt="Pizza Dough" />
+          </h1>
+          <h2 className="header">
+            <img src="/calculator.svg" alt="Calculator" />
+          </h2>
+        </header>
+        <main>
+          <form onSubmit={this.calculate}>
+            <div className="form-group">
+              <input
+                type="number"
+                id="count"
+                className="form-input"
+                onChange={this.handlePizzaCountChange}
+                required
+              />
+              <label htmlFor="count" className="form-label">
+                Number of pizzas{" "}
+                <span role="img" aria-label="">
+                  🍕
+                </span>
+              </label>
+            </div>
+            <div className="form-group">
+              <input
+                type="number"
+                id="name"
+                className="form-input"
+                onChange={this.handlePizzaWeightChange}
+                required
+              />
+              <label className="form-label" htmlFor="name">
+                Weight per pizza (grams)
+              </label>
+              <small className="form-text text-muted">
+                Typically between 200 and 250 grams. For a home oven 200 grams
+                is recommended.
+              </small>
+            </div>
+            <button type="submit" className="submit">
+              Calculate
+            </button>
+          </form>
+          <Link to="/info">More</Link>
+        </main>
       </>
     );
   }

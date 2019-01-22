@@ -24,18 +24,21 @@ const Result = props => {
     }
   ];
   const parsed = qs.parse(props.location.search);
-  console.log(parsed);
+  const pizzaWeight = parsed.weight || 200;
+  const pizzaCount = parsed.count || 5;
   const totalPercent = ingredients
     .map((ing, i) => {
       return ing.percentage;
     })
     .reduce((a, b) => a + b, 0);
-  const flourPerPizza = parsed.weight / totalPercent;
-  const totalFlour = flourPerPizza * parsed.count;
+  const flourPerPizza = pizzaWeight / totalPercent;
+  const totalFlour = flourPerPizza * pizzaCount;
   return (
     <>
       <Link to="/">Back</Link>
-      <h4>Required ingredients for {parsed.count} pizzas</h4>
+      <h4>
+        Required ingredients for {pizzaCount} pizzas x {pizzaWeight}g
+      </h4>
       <table className="table table-bordered">
         <tbody>
           {ingredients.map((ing, i) => {
