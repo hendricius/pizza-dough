@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MoreInfo = () => {
   return (
     <div>
+      <Link to="/">Back</Link>
+      <h1>More info</h1>
       <p>A typical Neapoliotan pizza consists of only flour water and salt.</p>
 
       <p>
@@ -13,8 +16,7 @@ const MoreInfo = () => {
         every 100 grams of flour you need to add 60 grams of water.
       </p>
       <a className="mt-3" href="https://github.com/hendricius/pizza-dough">
-        Please see the recipe for detailed instructions on how to prepare the
-        dough.
+        See full recipe 🍽
       </a>
     </div>
   );
