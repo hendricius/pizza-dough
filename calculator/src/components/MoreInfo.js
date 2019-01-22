@@ -1,11 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import Close from "../components/Close";
 
 const MoreInfo = () => {
   return (
-    <div>
-      <Link to="/">Back</Link>
-      <h1>More info</h1>
+    <main className="main">
+      <div className="view-header">
+        <h1>More info</h1>
+        <Close color="black" />
+      </div>
       <p>A typical Neapoliotan pizza consists of only flour water and salt.</p>
 
       <p>
@@ -18,7 +21,7 @@ const MoreInfo = () => {
       <a className="mt-3" href="https://github.com/hendricius/pizza-dough">
         See full recipe 🍽
       </a>
-    </div>
+    </main>
   );
 };
 

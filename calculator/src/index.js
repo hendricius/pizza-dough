@@ -10,7 +10,7 @@ import MoreInfo from "./components/MoreInfo";
 import Calculator from "./components/Calculator";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div className="container">
       <Route exact path="/" component={Calculator} />
       <Route path="/info" component={MoreInfo} />

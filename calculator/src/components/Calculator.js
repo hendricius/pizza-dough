@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../images/logo.svg";
+import calculator from "../images/calculator.svg";
+
 export default class Calculator extends React.Component {
   constructor(props) {
     super(props);
@@ -30,10 +33,10 @@ export default class Calculator extends React.Component {
       <>
         <header className="header">
           <h1 className="logo">
-            <img src="/logo.svg" alt="Pizza Dough" />
+            <img src={logo} alt="Pizza Dough" />
           </h1>
           <h2 className="logo">
-            <img src="/calculator.svg" alt="Calculator" />
+            <img src={calculator} alt="Calculator" />
           </h2>
         </header>
         <main className="main">

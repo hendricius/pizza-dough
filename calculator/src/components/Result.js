@@ -3,6 +3,7 @@ import * as qs from "query-string";
 import { Link } from "react-router-dom";
 
 import Ingredient from "./Ingredient";
+import Close from "./Close";
 
 const Result = props => {
   const ingredients = [
@@ -35,11 +36,13 @@ const Result = props => {
   const totalFlour = flourPerPizza * pizzaCount;
   return (
     <div className="result">
-      <main>
-        <Link to="/">Back</Link>
-        <h4>
-          Required ingredients for {pizzaCount} pizzas x {pizzaWeight}g
-        </h4>
+      <main className="main">
+        <div className="view-header">
+          <h2>
+            Required ingredients for {pizzaCount} pizzas x {pizzaWeight}g
+          </h2>
+          <Close color="white" />
+        </div>
         <table className="table table-bordered">
           <tbody>
             {ingredients.map((ing, i) => {
