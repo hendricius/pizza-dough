@@ -66,7 +66,7 @@ class Calculator extends React.Component {
     return (
       <div class="container">
         <h2 class="mt-3">Pizza Dough Calculator</h2>
-        <p>A typical Neapoliotan pizza consists of only flour
+        <p>A typical Neapolitan pizza consists of only flour
         water and salt.</p>
 
         <p>The key is to have the ingredients in the exact quantity.
