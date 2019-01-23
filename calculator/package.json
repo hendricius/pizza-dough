@@ -1,7 +1,6 @@
 {
   "name": "pizza-calculator",
   "version": "1.0.0",
-  "homepage": "https://butterfly-pn.github.io/pizza-dough",
   "private": false,
   "dependencies": {
     "bootstrap": "^4.2.1",

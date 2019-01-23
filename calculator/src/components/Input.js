@@ -19,7 +19,6 @@ class Input extends React.Component {
           max="1000"
           value={this.state.value}
           onChange={event => {
-            console.log("change");
             this.setState({ value: event.target.value });
             this.props.onChange(event);
           }}
