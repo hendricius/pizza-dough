@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import logo from "../images/logo.svg";
 import calculator from "../images/calculator.svg";
+import Input from "../components/Input";
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -41,34 +42,23 @@ class Calculator extends React.Component {
         </header>
         <main className="main">
           <form onSubmit={this.calculate}>
-            <div className="form-group">
-              <input
-                type="number"
-                id="count"
-                className="form-input"
-                onChange={this.handlePizzaCountChange}
-                required
-              />
-              <label htmlFor="count" className="form-label">
-                Number of pizzas
-              </label>
-            </div>
-            <div className="form-group">
-              <input
-                type="number"
-                id="name"
-                className="form-input"
-                onChange={this.handlePizzaWeightChange}
-                required
-              />
-              <label className="form-label" htmlFor="name">
-                Weight per pizza (grams)
-              </label>
+            <Input
+              id="count"
+              onChange={this.handlePizzaCountChange}
+              label="Number of pizzas"
+            />
+
+            <Input
+              id="weight"
+              onChange={this.handlePizzaWeightChange}
+              label="Weight per pizza (grams)"
+            >
               <small className="text-muted">
                 Typically between 200 and 250 grams. For a home oven 200 grams
                 is recommended.
               </small>
-            </div>
+            </Input>
+
             <button type="submit" className="submit">
               Calculate
             </button>

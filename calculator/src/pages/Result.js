@@ -1,8 +1,8 @@
 import React from "react";
 import * as qs from "query-string";
 
-import Ingredient from "./Ingredient";
-import Close from "./Close";
+import Ingredient from "../components/Ingredient";
+import Close from "../components/Close";
 
 const Result = props => {
   const ingredients = [

@@ -6,9 +6,9 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
 
-import Result from "./components/Result";
-import MoreInfo from "./components/MoreInfo";
-import Calculator from "./components/Calculator";
+import Result from "./pages/Result";
+import MoreInfo from "./pages/MoreInfo";
+import Calculator from "./pages/Calculator";
 
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>

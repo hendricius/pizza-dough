@@ -18,9 +18,7 @@ const MoreInfo = () => {
         using. So lets say the ingredient would say 60%, that would mean per
         every 100 grams of flour you need to add 60 grams of water.
       </p>
-      <a className="mt-3" href="https://github.com/hendricius/pizza-dough">
-        See full recipe 🍽
-      </a>
+      <a href="https://github.com/hendricius/pizza-dough">See full recipe 🍽</a>
     </main>
   );
 };

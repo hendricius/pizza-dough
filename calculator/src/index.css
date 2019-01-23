@@ -72,6 +72,28 @@ a {
   color: #ffffff;
 }
 
+.text-muted {
+  margin-top: 10px;
+}
+
+.link {
+  text-align: center;
+}
+
+.view-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.close {
+  flex: 1;
+  text-align: right;
+  cursor: pointer;
+}
+
+/*-------- Form --------*/
+
 .form-group {
   position: relative;
   display: flex;
@@ -115,30 +137,17 @@ a {
 }
 
 .form-input:focus + .form-label,
-.form-input:valid + .form-label {
+.form-input:valid + .form-label,
+.form-input:invalid + .form-label {
   transform: scale(0.85) translateY(-2rem) translateX(-20%);
   background: #f8f8f8;
   opacity: 1;
 }
 
-.text-muted {
-  margin-top: 10px;
-}
-
-.link {
-  text-align: center;
-}
-
-.view-header {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-.close {
-  flex: 1;
-  text-align: right;
-  cursor: pointer;
+.form-input:invalid[value=""] + .form-label {
+  background: rgba(255, 255, 255, 0);
+  transform: none;
+  opacity: 0.5;
 }
 
 /*-------- Result --------*/
@@ -180,6 +189,12 @@ a {
   text-align: center;
   justify-content: center;
   width: 33.33%;
+}
+
+@media (min-width: 550px) {
+  .ingredient-element {
+    font-size: 1.5rem;
+  }
 }
 
 .ingredient-element > p {
