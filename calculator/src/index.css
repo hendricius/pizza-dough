@@ -1,5 +1,5 @@
 html {
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   background: #f8f8f8;
 }
@@ -43,6 +43,12 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media (min-width: 720px) {
+  .main {
+    max-width: 500px;
+  }
 }
 
 .submit {
@@ -146,6 +152,47 @@ a {
   justify-content: center;
   z-index: 1;
 }
+
+.result-header {
+  margin-top: 30px;
+}
+
+.table {
+  margin-bottom: 70px;
+}
+
+/*-------- Ingredient --------*/
+
+.ingredient {
+  display: flex;
+  border-bottom: solid 3px #fff;
+  width: 100%;
+  padding: 20px;
+}
+
+.ingredient:last-of-type {
+  border-bottom: none;
+}
+
+.ingredient-element {
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+  width: 33.33%;
+}
+
+.ingredient-element > p {
+  margin: 0;
+  display: inline-block;
+}
+
+.ingredient-amount {
+  max-width: 80%;
+  overflow: hidden;
+}
+
+/*-------- Animations --------*/
 
 .fade-enter {
   position: absolute;

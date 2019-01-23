@@ -11,18 +11,21 @@ export default class Ingredient extends Component {
 
   render() {
     return (
-      <tr>
-        <td>{this.props.name}</td>
-        <td className="text-right">
+      <div className="ingredient">
+        <div className="ingredient-element">{this.props.name}</div>
+        <div className="ingredient-element">
           {this.formatPercentage(this.props.percentage)}
-        </td>
-        <td className="text-right">
-          {this.formatTotalOfIngredient(
-            this.props.percentage,
-            this.props.totalFlour
-          )}
-        </td>
-      </tr>
+        </div>
+        <div className="ingredient-element">
+          <p className="ingredient-amount">
+            {this.formatTotalOfIngredient(
+              this.props.percentage,
+              this.props.totalFlour
+            )}
+          </p>
+          <p>&nbsp;g</p>
+        </div>
+      </div>
     );
   }
 }

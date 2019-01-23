@@ -37,25 +37,25 @@ const Result = props => {
     <div className="result">
       <main className="main">
         <div className="view-header">
-          <h2>
-            Required ingredients for {pizzaCount} pizzas x {pizzaWeight}g
-          </h2>
+          <div className="result-header">
+            <h2>Required ingredients for {pizzaCount} pizzas</h2>
+            <h3>
+              ({pizzaWeight}
+              g)
+            </h3>
+          </div>
           <Close color="white" />
         </div>
-        <table className="table table-bordered">
-          <tbody>
-            {ingredients.map((ing, i) => {
-              return (
-                <Ingredient
-                  key={i}
-                  name={ing.name}
-                  percentage={ing.percentage}
-                  totalFlour={totalFlour}
-                />
-              );
-            })}
-          </tbody>
-        </table>
+        {ingredients.map((ing, i) => {
+          return (
+            <Ingredient
+              key={i}
+              name={ing.name}
+              percentage={ing.percentage}
+              totalFlour={totalFlour}
+            />
+          );
+        })}
       </main>
     </div>
   );
