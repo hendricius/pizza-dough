@@ -236,3 +236,9 @@ a {
   opacity: 0;
   transition: opacity 200ms ease-in;
 }
+
+.pwa {
+  display: none;
+  color: blue;
+  text-decoration: underline;
+}

@@ -71,6 +71,9 @@ class Calculator extends React.Component {
               </span>
             </Link>
           </div>
+          <div className="text-muted pwa" id="pwa">
+            Add to homescreen
+          </div>
         </main>
       </div>
     );
