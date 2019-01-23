@@ -1,6 +1,5 @@
 import React from "react";
 import * as qs from "query-string";
-import { Link } from "react-router-dom";
 
 import Ingredient from "./Ingredient";
 import Close from "./Close";
