@@ -136,7 +136,12 @@ a {
   border-color: inset;
 }
 
-.form-input:focus + .form-label,
+.form-input:focus + .form-label {
+  transform: scale(0.85) translateY(-2rem) translateX(-20%) !important;
+  background: #f8f8f8 !important;
+  opacity: 1 !important;
+}
+
 .form-input:valid + .form-label,
 .form-input:invalid + .form-label {
   transform: scale(0.85) translateY(-2rem) translateX(-20%);
