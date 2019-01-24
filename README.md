@@ -10,24 +10,24 @@ The Neapolitan pizza is characterised by a relatively high edge and a thin cente
 
 However the Neapolitan pizza association (Associazione Verace Pizza Napoletana) [clearly states](http://americas.pizzanapoletana.org/foto/allegati/AVPN_Disciplinare.pdf) that only yeast should be used to make the dough. This can be debated as our ancestors did not have access to yeast, they were using sourdough for their pizza. Also it can be debated whether our ancestors did truly make pizza, since a high amount of gluten in the wheat is required to make the dough. The gluten is the core factor that allows us to stretch the dough apart and make it thin on the interior. It is also the factor that allows air to be trapped inside of the dough, creating the open edge filled with tiny alveoli. This high gluten flour did not exist for a long time.
 
-If you look at the popular brand `Caputo` it started selling its wheat flour in 1924. New kinds of flour have been developed using radioactivity, or toxins. This resulted in faster genetic mutations which then increased the yield of the crop. So it can be argued that when pizza was created new flour and modern yeast had already been available. Using yeast is easier than sourdough, since you have less variables you need to control. For example if fermented too long a sourdough have a negative impact on the gluten structure of the dough. These factors can be more easily controlled with regular yeast.
+If you look at the popular brand `Caputo` it started selling its wheat flour in 1924. New kinds of flour have been developed using radioactivity, or toxins. This resulted in faster genetic mutations which then increased the yield of the crop. So it can be argued that when pizza was created new flour and modern yeast had already been available. Using yeast is easier than sourdough, since you have fewer variables you need to control. For example if fermented too long a sourdough have a negative impact on the gluten structure of the dough. These factors can be more easily controlled with regular yeast.
 
 The traditional Neapolitan workflow has always been to create the dough on the night before baking the pizza. This is one of the core features of creating a dough that has a great taste on its own. In fact - you could just bake the whole dough as a bread and it would taste awesome. A combination of room temperature fermentation and cold fermentation creates special enzymes which foster the complex but very pleasant taste of the pizza dough.
 
 ## Ingredients
 
-To the novice pizza baker it is surprising how few ingredients you need to make a pizza dough. The following percentages are by mass of the flour that you utilise:
+To the novice pizza baker it is surprising how few ingredients you need to make a pizza dough. The quantities of ingredients are specified as percentages of the mass of the flour that you use:
 
 * Flour
 * 65.00% Warm Water
 * 2.00% Salt
 * 0.05% Dry yeast or 0.15% fresh yeast
 
-The quantity of the ingredients is always calculated based on the amount of flour that you are using. That way you can easily scale up the recipe and make more pizzas. This is called bakers math. It makes very easy to adjust the desired output of pizzas you want to bake.
+Calculating the quantity of water, salt, and yeast as percentages of the flour makes it easy to scale up the recipe and make more pizzas. This is called bakers math. It makes very easy to adjust the desired output of pizzas you want to bake.
 
 A typical Pizza in Napoli has a final dough mass before making of around 250 grams. However in Napoli the ovens are also significantly larger. Thus I suggest the home baker to reduce this to around 220 grams dough weight of the pizza. On the picture above you can see me making one of those 220 gram pizzas.
 
-Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza. Remember - one pizza consist of 65% water on the flour - so how much flour do you actually need for a 220 gram pizza? A little confusing, [feel free to use my small calculator.](https://pizza-dough.herokuapp.com/)
+Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 65%  of the mass of the flour – so how much flour do you actually need for a 220 gram pizza? If you're not sure, [use my small calculator.](https://pizza-dough.herokuapp.com/)
 
 ## Picking the right flour
 
