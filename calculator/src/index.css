@@ -191,9 +191,12 @@ a {
 .ingredient-element {
   display: flex;
   flex-grow: 1;
-  text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 33.33%;
+}
+
+.number {
+  justify-content: flex-end;
 }
 
 @media (min-width: 550px) {

@@ -15,7 +15,7 @@ class Input extends React.Component {
           type="number"
           id={this.props.id}
           className="form-input"
-          min="0"
+          min="1"
           max="1000"
           value={this.state.value}
           onChange={event => {

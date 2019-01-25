@@ -13,10 +13,10 @@ export default class Ingredient extends Component {
     return (
       <div className="ingredient">
         <div className="ingredient-element">{this.props.name}</div>
-        <div className="ingredient-element">
+        <div className="ingredient-element number">
           {this.formatPercentage(this.props.percentage)}
         </div>
-        <div className="ingredient-element">
+        <div className="ingredient-element number">
           <p className="ingredient-amount">
             {Math.round(
               this.formatTotalOfIngredient(
