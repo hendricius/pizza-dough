@@ -4,7 +4,7 @@ class Input extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: ""
+      value: props.id === "weight" ? "200" : ""
     };
   }
 
