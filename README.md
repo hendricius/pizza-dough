@@ -140,7 +140,7 @@ Now the dough is done place it ideally on a wooden pizza peel covered in semolin
 *Step 4:*
 Topping/baking is beyond this guide. But you ideally want to bake the pizza in a very hot oven. A pizza steel for the home oven is advised, a stone will do fine too. A tray is also fine. The steel is advised for home ovens as it can transfer heat faster to the pizza than the stone. If you reached 450°C like in a typical Italian stone oven, stone would be perfect.
 
-Make sure you pre-heated the oven to maximum temperature. If your oven has a grill function, activate that one. Wait until your pizza turned brown on the edge. *Buon appetito!*
+Make sure you pre-heat the oven to maximum temperature. If your oven has a grill function, use it. Wait until your pizza turns brown on the edge. *Buon appetito!*
 
 ![A pizza Margherita](https://i.imgur.com/zH36flU.jpg)
 
