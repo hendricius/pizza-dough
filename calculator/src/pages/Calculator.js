@@ -46,12 +46,16 @@ class Calculator extends React.Component {
               id="count"
               onChange={this.handlePizzaCountChange}
               label="Number of pizzas"
+              value="2"
+              step="1"
             />
 
             <Input
               id="weight"
               onChange={this.handlePizzaWeightChange}
               label="Weight per pizza (grams)"
+              value="200"
+              step="5"
             >
               <small className="text-muted">
                 Typically between 200 and 250 grams. For a home oven 200 grams

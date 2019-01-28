@@ -4,7 +4,7 @@ class Input extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: props.id === "weight" ? "200" : ""
+      value: props.value
     };
   }
 
@@ -17,6 +17,7 @@ class Input extends React.Component {
           className="form-input"
           min="1"
           max="1000"
+          step={this.props.step}
           value={this.state.value}
           onChange={event => {
             this.setState({ value: event.target.value });
