@@ -25,7 +25,7 @@ const Result = props => {
   ];
   const parsed = qs.parse(props.location.search);
   const pizzaWeight = parsed.weight || 200;
-  const pizzaCount = parsed.count || 5;
+  const pizzaCount = parsed.count || 2;
   const totalPercent = ingredients
     .map((ing, i) => {
       return ing.percentage;
