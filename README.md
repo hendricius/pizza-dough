@@ -127,7 +127,7 @@ Cover a large area on a table, or your kitchen with flour. We do not want the do
 
 *Step 2:*
 
-Start pressing the dough downwards slightly, starting from the center. That way you will move the air bubbles to the edge of your dough. Unfortunately you will degas some of them, but that is fine. Just keep pressing the dough with your flat hands. If the dough sticks to your hand, flour your hands. The flour is now used since we do not want to damage the dough by having it stick to the surface our our hands.
+Start pressing the dough downwards slightly, starting from the center. That way you will move the air bubbles to the edge of your dough. Unfortunately you will degas some of them, but that is fine. Just keep pressing the dough with your flat hands. If the dough sticks to your hand, flour your hands. The flour is now used since we do not want to damage the dough by having it stick to the surface our hands.
 
 *Step 3:*
 
