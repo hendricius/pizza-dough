@@ -184,6 +184,20 @@ a {
   padding: 20px;
 }
 
+.multi {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.multi-or {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0px;
+  font-style: italic;
+}
+  
 .ingredient:last-of-type {
   border-bottom: none;
 }

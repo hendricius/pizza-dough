@@ -2,6 +2,7 @@ import React from "react";
 import * as qs from "query-string";
 
 import Ingredient from "../components/Ingredient";
+import Or from "../components/Or";
 import Close from "../components/Close";
 
 const Result = props => {
@@ -18,17 +19,23 @@ const Result = props => {
       name: "Salt",
       percentage: 0.02
     },
-    {
-      name: "Yeast",
-      percentage: 0.0005
-    }
+    [
+      {
+        name: "Dry Yeast",
+        percentage: 0.0005
+      },
+      {
+        name: "Fresh Yeast",
+        percentage: 0.0015
+      }
+    ]
   ];
   const parsed = qs.parse(props.location.search);
   const pizzaWeight = parsed.weight || 200;
   const pizzaCount = parsed.count || 2;
   const totalPercent = ingredients
     .map((ing, i) => {
-      return ing.percentage;
+      return Array.isArray(ing) ? ing[0].percentage : ing.percentage;
     })
     .reduce((a, b) => a + b, 0);
   const flourPerPizza = pizzaWeight / totalPercent;
@@ -47,14 +54,31 @@ const Result = props => {
           <Close color="white" />
         </div>
         {ingredients.map((ing, i) => {
+      if (Array.isArray(ing)) {
+        // One of the following (yeast)
+        return ing.map((ingOneOf, k) => {
           return (
-            <Ingredient
-              key={i}
-              name={ing.name}
-              percentage={ing.percentage}
-              totalFlour={totalFlour}
-            />
-          );
+            <>
+             {k>0 ? (<Or/>) : null}
+              <Ingredient
+                key={i+'_'+k}
+                name={ingOneOf.name}
+                percentage={ingOneOf.percentage}
+                totalFlour={totalFlour}
+              />
+             </> 
+            );
+        })
+      }
+      return (
+        <Ingredient
+        single={true}
+        key={i}
+        name={ing.name}
+        percentage={ing.percentage}
+        totalFlour={totalFlour}
+        />
+      );
         })}
       </main>
     </div>
