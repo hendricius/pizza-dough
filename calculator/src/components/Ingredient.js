@@ -11,7 +11,7 @@ export default class Ingredient extends Component {
 
   render() {
     return (
-      <div className="ingredient">
+      <div className={this.props.single?'ingredient':'multi'}>
         <div className="ingredient-element">{this.props.name}</div>
         <div className="ingredient-element number">
           {this.formatPercentage(this.props.percentage)}
