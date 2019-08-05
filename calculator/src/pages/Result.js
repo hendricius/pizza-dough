@@ -27,6 +27,10 @@ const Result = props => {
       {
         name: "Fresh Yeast",
         percentage: 0.0015
+      },
+      {
+        name: "Sour dough",
+        percentage: 0.2
       }
     ]
   ];
@@ -54,31 +58,31 @@ const Result = props => {
           <Close color="white" />
         </div>
         {ingredients.map((ing, i) => {
-      if (Array.isArray(ing)) {
-        // One of the following (yeast)
-        return ing.map((ingOneOf, k) => {
+          if (Array.isArray(ing)) {
+            // One of the following (yeast)
+            return ing.map((ingOneOf, k) => {
+              return (
+                <>
+                  {k > 0 ? <Or /> : null}
+                  <Ingredient
+                    key={i + "_" + k}
+                    name={ingOneOf.name}
+                    percentage={ingOneOf.percentage}
+                    totalFlour={totalFlour}
+                  />
+                </>
+              );
+            });
+          }
           return (
-            <>
-             {k>0 ? (<Or/>) : null}
-              <Ingredient
-                key={i+'_'+k}
-                name={ingOneOf.name}
-                percentage={ingOneOf.percentage}
-                totalFlour={totalFlour}
-              />
-             </> 
-            );
-        })
-      }
-      return (
-        <Ingredient
-        single={true}
-        key={i}
-        name={ing.name}
-        percentage={ing.percentage}
-        totalFlour={totalFlour}
-        />
-      );
+            <Ingredient
+              single={true}
+              key={i}
+              name={ing.name}
+              percentage={ing.percentage}
+              totalFlour={totalFlour}
+            />
+          );
         })}
       </main>
     </div>
