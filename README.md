@@ -25,9 +25,16 @@ To the novice pizza baker it is surprising how few ingredients you need to make 
 
 Calculating the quantity of water, salt, and yeast as percentages of the flour makes it easy to scale up the recipe and make more pizzas. This is called bakers math. It makes very easy to adjust the desired output of pizzas you want to bake.
 
+So assuming you want to bake 2 tiny pizzas, you would be using 200 grams of flour. In reality it's a little more, I am just using this as an easier to understand math example. Don't worry - the calculator follows later. Your ingredients would look like this.
+
+* 200 Grams
+* 130 Grams of warm water
+* 4 Grams of salt
+* 0.1 Grams of dry yeast or 0.3 grams of fresh yeast
+
 A typical Pizza in Napoli has a final dough mass before making of around 250 grams. However in Napoli the ovens are also significantly larger. Thus I suggest the home baker to reduce this to around 220 grams dough weight of the pizza. On the picture above you can see me making one of those 220 gram pizzas.
 
-Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 65%  of the mass of the flour – so how much flour do you actually need for a 220 gram pizza? If you're not sure, [use my small calculator.](https://pizza-dough.herokuapp.com/)
+Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 65% of the mass of the flour – so how much flour do you actually need for a 220 gram pizza? If you don't feel like doing the math [use my small calculator.](https://pizza-dough.herokuapp.com/)
 
 ## Picking the right flour
 
