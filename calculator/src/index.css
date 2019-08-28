@@ -177,11 +177,31 @@ a {
 
 /*-------- Ingredient --------*/
 
-.ingredient {
+.ingredient-wrapper {
   display: flex;
   border-bottom: solid 3px #fff;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.ingredient-wrapper--intro {
+  border-bottom: dashed 6px #fff;
+}
+
+.ingredient-base {
+  display: flex;
+  width: 100%;
+}
+
+.ingredient-base--breakdown {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.ingredient-explanation {
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 .multi {
@@ -198,7 +218,7 @@ a {
   font-style: italic;
 }
   
-.ingredient:last-of-type {
+.ingredient-wrapper:last-of-type {
   border-bottom: none;
 }
 
@@ -207,6 +227,11 @@ a {
   flex-grow: 1;
   justify-content: flex-start;
   width: 33.33%;
+  white-space: nowrap;
+}
+
+.ingredient-children {
+  width: 100%;
 }
 
 .number {
@@ -216,6 +241,9 @@ a {
 @media (min-width: 550px) {
   .ingredient-element {
     font-size: 1.5rem;
+  }
+  .ingredient-base--breakdown .ingredient-element {
+    font-size: 1.25rem;
   }
 }
 

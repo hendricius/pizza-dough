@@ -7,6 +7,7 @@ import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
 
 import Result from "./pages/Result";
+import ResultSourdough from "./pages/ResultSourdough";
 import MoreInfo from "./pages/MoreInfo";
 import Calculator from "./pages/Calculator";
 
@@ -21,6 +22,7 @@ ReactDOM.render(
                 <Route exact path="/" component={Calculator} />
                 <Route path="/info" component={MoreInfo} />
                 <Route path="/result" component={Result} />
+                <Route path="/result-sourdough" component={ResultSourdough} />
               </Switch>
             </CSSTransition>
           </TransitionGroup>

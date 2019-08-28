@@ -25,7 +25,7 @@ class Calculator extends React.Component {
   calculate = e => {
     e.preventDefault();
     this.props.history.push(
-      `/result?weight=${this.state.pizzaWeight}&count=${this.state.pizzaCount}`
+      `/result?weight=${this.state.pizzaWeight}&count=${this.state.pizzaCount}&water=0.65&salt=0.02&sourdoughPercent=0.2&sourdoughHydration=1&yeastPercent=0.0005`
     );
   };
 
@@ -58,12 +58,16 @@ class Calculator extends React.Component {
             >
               <small className="text-muted">
                 Typically between 200 and 250 grams. For a home oven 200 grams
-                is recommended.
+                is recommended. Choose between a yeast based dough and a sourdough
+                based dough.
               </small>
             </Input>
 
             <button type="submit" className="submit">
-              Calculate
+              Yeast
+            </button>
+            <button type="submit" className="submit">
+              Sourdough
             </button>
           </form>
           <div className="link">
