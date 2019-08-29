@@ -38,7 +38,7 @@ a {
 }
 
 .main {
-  max-width: 80vw;
+  max-width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,32 +51,43 @@ a {
   }
 }
 
-.submit {
+.calculate-buttons {
   margin-top: 10px;
   margin-bottom: 10px;
-  background: #ee5230;
+  display: flex;
+}
+
+.calculate-buttons > * {
   box-sizing: border-box;
   border: none;
-  border-radius: 6px;
   text-align: center;
   padding: 8px;
-  width: 100%;
-
-  cursor: pointer;
-
   font-weight: medium;
   line-height: normal;
   font-size: 18px;
   text-align: center;
+}
 
+.calculate-buttons span {
+  display: block;
+  width: 150px;
+}
+
+.calculate-buttons > a {
+  width: 100%;
+  background: #ee5230;
+  box-sizing: border-box;
+  cursor: pointer;
   color: #ffffff;
+  border-radius: 5px;
 }
 
 .text-muted {
   margin-top: 10px;
 }
 
-.link {
+.more-info {
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -177,11 +188,31 @@ a {
 
 /*-------- Ingredient --------*/
 
-.ingredient {
+.ingredient-wrapper {
   display: flex;
   border-bottom: solid 3px #fff;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.ingredient-wrapper--intro {
+  border-bottom: dashed 6px #fff;
+}
+
+.ingredient-base {
+  display: flex;
+  width: 100%;
+}
+
+.ingredient-base--breakdown {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.ingredient-explanation {
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 .multi {
@@ -198,7 +229,7 @@ a {
   font-style: italic;
 }
   
-.ingredient:last-of-type {
+.ingredient-wrapper:last-of-type {
   border-bottom: none;
 }
 
@@ -207,6 +238,11 @@ a {
   flex-grow: 1;
   justify-content: flex-start;
   width: 33.33%;
+  white-space: nowrap;
+}
+
+.ingredient-children {
+  width: 100%;
 }
 
 .number {
@@ -216,6 +252,9 @@ a {
 @media (min-width: 550px) {
   .ingredient-element {
     font-size: 1.5rem;
+  }
+  .ingredient-base--breakdown .ingredient-element {
+    font-size: 1.25rem;
   }
 }
 

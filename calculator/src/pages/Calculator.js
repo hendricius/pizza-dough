@@ -4,30 +4,30 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo.svg";
 import calculator from "../images/calculator.svg";
 import Input from "../components/Input";
+import { defaultOptions } from "../utils";
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      pizzaWeight: "",
-      pizzaCount: ""
-    };
+    this.state = defaultOptions();
   }
 
   handlePizzaWeightChange = e => {
-    this.setState({ pizzaWeight: e.target.value });
+    this.setState({ weight: e.target.value });
   };
 
   handlePizzaCountChange = e => {
-    this.setState({ pizzaCount: e.target.value });
+    this.setState({ count: e.target.value });
   };
 
-  calculate = e => {
-    e.preventDefault();
-    this.props.history.push(
-      `/result?weight=${this.state.pizzaWeight}&count=${this.state.pizzaCount}`
-    );
-  };
+  buildParameters() {
+    const opts = {
+      ...defaultOptions(),
+      weight: this.state.weight,
+      count: this.state.count,
+    };
+    return `weight=${opts.weight}&count=${opts.count}&water=${opts.water}&salt=${opts.salt}&sourdoughPercent=${opts.sourdoughPercent}&sourdoughHydration=${opts.sourdoughHydration}&dryYeastPercent=${opts.dryYeastPercent}`
+  }
 
   render() {
     return (
@@ -41,12 +41,12 @@ class Calculator extends React.Component {
           </h2>
         </header>
         <main className="main">
-          <form onSubmit={this.calculate}>
+          <form>
             <Input
               id="count"
               onChange={this.handlePizzaCountChange}
               label="Number of pizzas"
-              value="2"
+              value={this.state.count}
               step="1"
             />
 
@@ -54,19 +54,24 @@ class Calculator extends React.Component {
               id="weight"
               onChange={this.handlePizzaWeightChange}
               label="Weight per pizza (grams)"
-              value="200"
+              value={this.state.weight}
             >
               <small className="text-muted">
                 Typically between 200 and 250 grams. For a home oven 200 grams
-                is recommended.
+                is recommended. Choose between a yeast based dough and a sourdough
+                based dough.
               </small>
             </Input>
 
-            <button type="submit" className="submit">
-              Calculate
-            </button>
+            <div className="calculate-buttons">
+              <Link to={`result?yeast=true&${this.buildParameters()}`}>Yeast</Link>
+              <span>
+                - or -
+              </span>
+              <Link to={`result?sourdough=true&${this.buildParameters()}`}>Sourdough</Link>
+            </div>
           </form>
-          <div className="link">
+          <div className="more-info">
             <Link to="/info">
               More info{" "}
               <span role="img" aria-label="">
