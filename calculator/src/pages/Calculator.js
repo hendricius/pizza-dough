@@ -4,16 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo.svg";
 import calculator from "../images/calculator.svg";
 import Input from "../components/Input";
-
-const defaultOptions = () => ({
-    weight: 200,
-    count: 2,
-    water: 0.65,
-    salt: 0.02,
-    sourdoughPercent: 0.2,
-    sourdoughHydration: 1,
-    yeastPercent: 0.0005
-});
+import { defaultOptions } from "../utils";
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -35,7 +26,7 @@ class Calculator extends React.Component {
       weight: this.state.weight,
       count: this.state.count,
     };
-    return `weight=${opts.weight}&count=${opts.count}&water=${opts.water}&salt=${opts.salt}&sourdoughPercent=${opts.sourdoughPercent}&sourdoughHydration=${opts.sourdoughHydration}&yeastPercent=${opts.yeastPercent}`
+    return `weight=${opts.weight}&count=${opts.count}&water=${opts.water}&salt=${opts.salt}&sourdoughPercent=${opts.sourdoughPercent}&sourdoughHydration=${opts.sourdoughHydration}&dryYeastPercent=${opts.dryYeastPercent}`
   }
 
   render() {
@@ -73,11 +64,11 @@ class Calculator extends React.Component {
             </Input>
 
             <div className="calculate-buttons">
-              <Link to={`result?${this.buildParameters()}`}>Yeast</Link>
+              <Link to={`result?yeast=true&${this.buildParameters()}`}>Yeast</Link>
               <span>
                 - or -
               </span>
-              <Link to={`result-sourdough?${this.buildParameters()}`}>Sourdough</Link>
+              <Link to={`result?sourdough=true&${this.buildParameters()}`}>Sourdough</Link>
             </div>
           </form>
           <div className="more-info">
