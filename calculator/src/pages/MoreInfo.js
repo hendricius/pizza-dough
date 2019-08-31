@@ -9,7 +9,7 @@ const MoreInfo = () => {
         <h1>More info</h1>
         <Close color="black" />
       </div>
-      <p>A typical Neapolitan pizza consists of only flour water and salt.</p>
+      <p>A typical Neapolitan pizza consists of only 4 basic ingredients: flour, water, salt and yeast.</p>
 
       <p>
         The key is to have the ingredients in the exact quantity. To calculate
