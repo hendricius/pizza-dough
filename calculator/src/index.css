@@ -213,6 +213,7 @@ a {
 .ingredient-explanation {
   font-size: 14px;
   padding-top: 10px;
+  text-align: justify;
 }
 
 .multi {
