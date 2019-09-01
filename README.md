@@ -34,7 +34,7 @@ So assuming you want to bake 2 tiny pizzas, you would be using 200 grams of flou
 
 A typical Pizza in Napoli has a final dough mass before making of around 250 grams. However in Napoli the ovens are also significantly larger. Thus I suggest the home baker to reduce this to around 220 grams dough weight of the pizza. On the picture above you can see me making one of those 220 gram pizzas.
 
-Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 65% of the mass of the flour – so how much flour do you actually need for a 220 gram pizza? If you don't feel like doing the math [use my small calculator.](https://pizza-dough.herokuapp.com/)
+Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 65% of the mass of the flour – so how much flour do you actually need for a 220 gram pizza? If you don't feel like doing the math [use my small calculator.](https://pizza-calculator.the-bread-code.io)
 
 ## Picking the right flour
 

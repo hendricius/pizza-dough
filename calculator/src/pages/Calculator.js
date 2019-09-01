@@ -57,9 +57,8 @@ class Calculator extends React.Component {
               value={this.state.weight}
             >
               <small className="text-muted">
-                Typically between 200 and 250 grams. For a home oven 200 grams
-                is recommended. Choose between a yeast based dough and a sourdough
-                based dough.
+                1) Pick the amount of pizzas you want to bake and your desired final dough weight.<br />
+                2) Choose between a yeast based dough or sourdough based dough.
               </small>
             </Input>
 
@@ -72,12 +71,27 @@ class Calculator extends React.Component {
             </div>
           </form>
           <div className="more-info">
-            <Link to="/info">
-              More info{" "}
-              <span role="img" aria-label="">
-                ℹ️
-              </span>
-            </Link>
+            <h1>Background</h1>
+            <p>
+                Typically the pizza dough weighs between 200 and 250 grams. For a home oven 200 grams
+                is a recommended size. Change this value depending on the size of your oven.
+            </p>
+            <p>A real Neapolitan pizza consists of only flour water and salt. Traditionally sourdough has been used. Sourdough requires
+              more advanced dough handling. Thus for beginners the yeast based dough is recommended.
+            </p>
+            <p>
+              The key is to have all the ingredients in the exact quantity. To calculate
+              how much of each ingredient is used "Baker's Math" is applied. This means
+              the ingredients are calculated based on the amount of flour that you are
+              using. So lets say the ingredient would say 60%, that would mean per
+              every 100 grams of flour you need to add 60 grams of water. This way you
+              can easily scale up the amount of pizzas that you want to bake.
+            </p>
+            <div className="more-info-links">
+              <a href="https://github.com/hendricius/pizza-dough">📚 See full recipe</a>
+              <a href="https://www.reddit.com/user/the_bread_code">Reddit</a>
+              <a href="https://instagram.com/the_bread_code/">Instagram</a>
+            </div>
           </div>
           <div className="text-muted pwa" id="pwa">
             Add to homescreen
