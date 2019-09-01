@@ -7,7 +7,6 @@ import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
 
 import Result from "./pages/Result";
-import MoreInfo from "./pages/MoreInfo";
 import Calculator from "./pages/Calculator";
 
 ReactDOM.render(
@@ -19,7 +18,6 @@ ReactDOM.render(
             <CSSTransition key={location.key} timeout={200} classNames="fade">
               <Switch location={location}>
                 <Route exact path="/" component={Calculator} />
-                <Route path="/info" component={MoreInfo} />
                 <Route path="/result" component={Result} />
               </Switch>
             </CSSTransition>
