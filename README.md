@@ -128,6 +128,8 @@ One hour to go for our 24 hour recipe. I use this hour to let the dough balls re
 
 **24:00: Shape the pizza**
 
+There are many different ways to shape the pizza. The steps listed here are not the most efficient ones, but they create excellent results for the home-baker. In a large scale pizzeria you will be too slow. Besides the written instructions you can also ![watch the whole process as a video.](https://www.youtube.com/watch?v=uhfO_grJEuQ)
+
 *Step 1:*
 
 Cover a large area on a table, or your kitchen with flour. We do not want the dough to stick to the surface. With the spatula/scraper remove the dough from the surface and place it on the bed of flour.
