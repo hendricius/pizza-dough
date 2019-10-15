@@ -1,16 +1,16 @@
 # Pizzateig
 
-Dieses Rezept soll dir helfen, den bestmöglichen Pizzateig für eine neapolitanische Pizza zu machen. Meine persönliche Motivation das perfekte Rezept zu finden war immer eine Kindheitserinnerung, die ich unbedingt rekriieren wollte - die Pizza eines kleinen Restaurants names `Panorama` aus der italienischen Gemeinde `Olang` (`Valdaora`<sup>1</sup>). Über Jahre war ich wie besessen verschiedene Pizzas auszuprobieren und zu beobachten wie die echte *Pizzaioli* den Teig machen. Ich habe es unzählige Pizzen gebacken und mit Menschen aus der ganzen Welt darüber diskutiert. Dieses Repository soll nun dazu dienen, meine Erfahrung auf der Suche nach dem bestmöglichen Pizzateig zu teilen. Anmmerkung: Dieser Guide bezieht sich nur auf den Teig der Pizza und nicht auf das Backen oder Belegen.
+Dieses Rezept soll dir helfen, den bestmöglichen Pizzateig für eine neapolitanische Pizza zu machen. Meine persönliche Motivation dafür, das perfekte Rezept für Pizzateig zu finden, war eine frühe Kindheitserinnerung, die ich unbedingt rekriieren wollte - die Pizza eines kleinen Restaurants names `Panorama` aus der italienischen Gemeinde `Olang` (`Valdaora`<sup>1</sup>). Über Jahre war ich wie besessen, verschiedene Pizzas auszuprobieren und zu beobachten wie die echte *Pizzaioli* ihren Teig machen. Ich habe unzählige Pizzen gebacken und mit Menschen aus der ganzen Welt darüber diskutiert. Dieses Repository soll nun dazu dienen, meine Erfahrung auf der Suche nach dem bestmöglichen Pizzateig zu teilen. Anmmerkung: Dieser Guide bezieht sich nur auf den Teig der Pizza und nicht auf das Backen oder Belegen.
 
 ![Me making a nice pizza](https://i.imgur.com/x2jxzde.jpg)
 
-**Disclaimer** - Ich behaupte nicht, dass alle hier genannten Informationen wissenschaftlich korrekt sind. Dieser Guide basiert nicht auf professioneller Wissenschaft, sondern ist das Ergebnis meiner endlosen Recherche der letzten Jahre. Falls Du einige meiner Beobachtungen weiter mit wissenschaftlichen Artikeln unterstreichen könntest, würde ich mich über einen Pull Request freuen.
+**Disclaimer** - Ich behaupte nicht, dass alle hier genannten Informationen wissenschaftlich korrekt sind. Dieser Guide basiert nicht auf professioneller Wissenschaft, sondern ist das Ergebnis meiner endlosen Recherche der letzten Jahre. Falls Du einige meiner Beobachtungen weiter mit wissenschaftlichen Artikeln unterstreichen könntest, würde ich mich sehr über einen Pull Request freuen.
 
-Charakteristisch für die neapolitanische Pizza ist der relativ hohe Rand und die dünne Mitte der Pizza. Die einzigen Zutaten für den Teig sind Mehl, Wasser, Salz und Hefe. Früher wurde auch Sauerteig als Alternative zur Hefe verwendet. Allerdings [schreibt die "Neapolitan Pizza Association" vor](http://americas.pizzanapoletana.org/foto/allegati/AVPN_Disciplinare.pdf), dass nur Hefe für den Teig verwendet werden soll. Diese Entscheidung kann aber als kontrovers betrachtet werden, da unsere Vorfahren noch keine Zugang zu Hefe hatten und daher Sauerteig verwendeten. Es steht allerdings auch zur Debatte, ob unsere Vorfahren wirklich richtige Pizza gemacht haben, da ein hoher Glutenanteil im Mehl für den Teig existentiell ist. Das Gluten sorgt dafür, dass der Teig dünn ausgebreitet werden kann und Blasen bildet. Mehl mit hohem Glutenanteil existierte für lange Zeit aber nicht.
+Charakteristisch für die neapolitanische Pizza ist der relativ hohe Rand und die dünne Mitte der Pizza. Die einzigen Zutaten für den Teig sind Mehl, Wasser, Salz und Hefe. Früher wurde auch Sauerteig als Alternative zur Hefe verwendet. Allerdings [schreibt die "Neapolitan Pizza Association" vor](http://americas.pizzanapoletana.org/foto/allegati/AVPN_Disciplinare.pdf), dass nur Hefe für den Teig verwendet werden soll. Diese Entscheidung kann aber als kontrovers betrachtet werden, da unsere Vorfahren noch keine Zugang zu Hefe hatten und daher Sauerteig verwendeten. Es steht allerdings auch zur Debatte, ob unsere Vorfahren wirklich, im heutigen Sinne richtige Pizza gemacht haben, da ein hoher Glutenanteil im Mehl für den Teig existentiell ist. Das Gluten sorgt dafür, dass der Teig dünn ausgebreitet werden kann und Blasen bildet. Mehl mit hohem Glutenanteil existierte lange Zeit aber nicht.
 
-Zum Beispiel begann die populäre Marke `Caputo` erst 1924 damit, Weizenmehl zu verkaufen. Neue Arten von Mehl wurden mithilfe von Radioaktivität oder Toxinen entwickelt, was zu schnelleren genetischen Mutationen und damit höheren Ernteerträgen führte. Daher kann auch diskutiert werden, dass bei der Erfindung der Pizza bereits neue Mehlarten und morderne Hefe verfügbar waren. Hefe macht das Pizzamachen zudem einfacher. Zum Beispiel kann zu lange fermentierter Sauerteig einen negativen Einfluss auf die Glutenstruktur des Teigs haben, was bei Verwendung von Hefe leichter kontrolliert werden kann.
+Zum Beispiel begann der populäre Hersteller `Caputo` erst 1924 damit, sein Weizenmehl zu verkaufen. Neue Arten von Mehl wurden mithilfe von Radioaktivität oder Toxinen entwickelt, was zu schnelleren, genetischen Mutationen und damit höheren Ernteerträgen geführt hat. Daher kann auch diskutiert werden, dass bei der Erfindung der Pizza bereits neuartige Mehlarten und morderne Hefe verfügbar waren. Hefe macht das Pizzamachen zudem einfacher. Zum Beispiel kann zu lange fermentierter Sauerteig einen negativen Einfluss auf die Glutenstruktur des Teigs haben, was sich bei Verwendung von Hefe leichter kontrolliert werden kann.
 
-Traditionellerweise wird die neapolitanische Pizza bereits am Tag vorher vorbereitet. Dies ist einer der wichtigsten Besonderheiten, um einen erstklassigen Teig zu machen, der auch zu Brot verarbeitet gut schmecken würde. Eine Fermentierung bei Raum- und kalten Temperaturen sorgt für die Bildung von speziellen Enzimen, die den komplexen aber angenehmen Geschmack von Pizzateig ausmachen.
+Traditionellerweise wird die neapolitanische Pizza bereits am Tag vorher vorbereitet. Dies ist eine der wichtigsten Voraussetzungen, um einen erstklassigen Teig zu machen, der auch zu Brot verarbeitet gut schmecken würde. Eine Fermentierung bei Raum- und kalten Temperaturen sorgt zudem für die Bildung von speziellen Enzimen, die den komplexen aber angenehmen Geschmack von Pizzateig ausmachen.
 
 ## Zutaten
 
@@ -38,7 +38,7 @@ Um die Berechnung der Zutatenmengen zu vereinfachen, habe ich einen [kleinen Rec
 
 Das Mehl die wichtigste Zutat des Teigs. Daher dient hier ein eigenes Kapitel dazu, das richtige Mehl zu finden. Erfahrene Pizzabäcker können einige Defizite von schlechtem Mehl umgehen. Für Einsteiger kann das Mehl allerdings der Unterschied zwischen einer grandiosen Pizza oder eines kompletten Reinfalls sein.
 
-Es gibt aber eine Fausregel: **Nimm ein Mehl mit hohem Proteinanteil.**
+Es gibt aber eine Fausregel: **Nimm' ein Mehl mit hohem Proteinanteil.**
 
 Am besten ist ein Mehl mit möglichst viel Protein. Gut sind daher Brotmehl (bread flour) oder Allzweckmehl (all-purpose flour) \[**Anmerkung des Übersetzers**: Diese Namen sind in Deutschland nicht gebräuchlich, da Mehl nach DIN 10355 klassifiziert werden. Vergleichbar sind wahrscheinlich am ehesten Weizenmehl Typ 405 oder Typ 550\]. Nimm' das Mehl mit dem größten Proteinanteil. Je mehr, desto besser für die Pizza. Der Grund hierfür liegt im Inneren des Weizenkerns (vgl. Bild unten). Brotmehl (bread flour) besteht nur aus dem Keim (Germ) und dem Endosperm des Weizenkerns. Die Kleie (Bran) ist zu faserig, was sich negativ auf die Glutenmatrix auswirken kann, die sich im Teig entwickeln soll. Der genaue Proteinanteil der einzelnen Komponenten den Kerns hängt natürlich auch mit dem verwendeten Weizen zusammen. Bei bestimmeten Typen hat das Endosperm den größten Proteinanteil. Als Beispiel wird in Italien häufig `Tipo 00`-Mehl verwendet, das nur den Endosperm enthält. Im `Caputo`-Mehl beträgt der Proteinanteil des Endosperm 13%. Allgemein gilt, ein Weizenmehl mit möglichst viel Protein zu verwenden.
 
@@ -46,11 +46,11 @@ Am besten ist ein Mehl mit möglichst viel Protein. Gut sind daher Brotmehl (bre
 
 ## Den Teig machen
 
-Der Trick, erstklassigen Teig zu machen, ist Zeit. Gut Ding will Weile haben. Solltest Du die Gelegenheit haben, echte Pizzabäcker in italienischen Restaurants zu beobachten, wirst Du bemerken, dass sie den Teig bereits 24 - 48 Stunden vorher vorbereiten. Dies erlaubt dem Teig Geschmack und Stärke zu entwickeln. Von der Hefe aktivierte Enzymreaktionen sind der Grund für den Geschmack, während Zeit dem Teig erlaubt, ein stärkeres Glutennetzwerk anzulegen. Dieses sorgt dafür, dass der Teig sowohl stärker zusammenzuhalt, als auch die durch die Hefe entstandene Luft zu speichern. Außerdem bietet es eine optimale Oberfläche für den Belag der Pizza. Klar, der Prozess kann durch mehr Hefe beschleunigt werden, aber wenn möglich sollte der Teig mindestens 24 Stunden vor dem Essen der Pizza gemacht werden. Meine Küche ist das ganze Jahr ca. 20°C warm. Abhängig von der Temperatur ist die Hefe aktiver. Wärme Temperaturen beschleunigen, während kältere Temperaturen die Hefe verlangsamen. Dadurch kannst du die initiale Zubereitungszeit mithilfe vom warmen oder kalten Wasser variieren.
+Der Trick, erstklassigen Teig zu machen, ist Zeit. Gut Ding will Weile haben. Solltest Du die Gelegenheit haben, echte Pizzabäcker in italienischen Restaurants zu beobachten, wirst Du bemerken, dass sie den Teig bereits 24-48 Stunden vorher vorbereiten. Dies erlaubt dem Teig Geschmack und Stärke zu entwickeln. Von der Hefe aktivierte Enzymreaktionen sind der Grund für den Geschmack, während Zeit dem Teig erlaubt, ein stärkeres Glutennetzwerk anzulegen. Dieses sorgt dafür, dass der Teig sowohl stärker zusammenzuhalt, als auch die durch die Hefe entstandene Luft zu speichern. Außerdem bietet es eine optimale Oberfläche für den Belag der Pizza. Klar, der Prozess kann durch mehr Hefe beschleunigt werden, aber wenn möglich sollte der Teig mindestens 24 Stunden vor dem Essen der Pizza gemacht werden. Meine Küche ist das ganze Jahr ca. 20°C warm. Abhängig von der Temperatur ist die Hefe aktiver. Warme Temperaturen beschleunigen, während kalte Temperaturen die Hefe verlangsamen. Dadurch kannst du die initiale Zubereitungszeit mithilfe vom warmen oder kalten Wasser variieren.
 
 Das folgende Kapitel geht von einer Zeitraum von 24 Stunden zum Vorbereiten des Teigs aus. In meinem Fall beginne ich daher typischerweise um 20:00 Uhr abends, wenn ich am nächsten Tag zur selben Zeit Pizza backen möchte.
 
-Beim Pizza- und Brotbacken geht es hauptsächlich um die Technik. Falls Du ein Einsteiger bist, solltest Du versuchen, dich so eng wie möglich an die einzelnen Schritte zu halten. Erfahrene Bäcker können das Rezept natürlich je nach Vorliebe leicht anpassen.
+Beim Pizza- und Brotbacken geht es hauptsächlich um die angewandte Technik. Falls Du ein Einsteiger bist, solltest Du versuchen, dich so eng wie möglich an die einzelnen Schritte zu halten. Erfahrene Bäcker können das Rezept natürlich je nach Vorliebe leicht anpassen.
 
 **0:00: Mixen der Zutaten**
 
@@ -76,7 +76,7 @@ Ein weiteres Mal Strecken und Falten. Beachte den Unterschied zwischen den Durch
 
 **2:00: Strecken und Falten 4**
 
-Ein letztes Mal für heute wird der Teig gestreckt und gefaltet. Er sollte jetzt schon sehr geschmeidig sein. Auch dank der Zeit, die geholfen hat einen sehr schönen Teig zu entwickeln.
+Ein letztes Mal wird für heute der Teig gestreckt und gefaltet. Er sollte jetzt schon sehr geschmeidig sein. Auch dank der Zeit, die geholfen hat einen sehr schönen Teig zu entwickeln.
 
 Lasse den Teig zugedeckt bis zum nächsten Tag ruhen.
 
@@ -84,7 +84,7 @@ Lasse den Teig zugedeckt bis zum nächsten Tag ruhen.
 
 Je nachdem, wann der Teig fertig werden soll, wird ein letztes Mal gestreckt und gefaltet. Der Teig sollte nun eine Menge Luftblasen entwickelt haben, die beim Kneten verschwinden. Aber keine Sorge. Stell' Dir vor Du hättest mehr Hefe verwendent. All die Luftblasen wären bereits über Nacht verschwunden.
 
-Platziere den Teig nach dem Kneten auf einer sauberen, glatten Oberfläche in deiner Küche. Nachfolgend ist ein Bild meines Teiges nachdem er eine Nacht Zeit hatte zu gehen. Beachte die luftige Struktur des Teigs.
+Platziere den Teig nach dem Kneten auf einer sauberen, glatten Oberfläche in deiner Küche. Nachfolgend ist ein Bild meines Teiges, nachdem er eine Nacht Zeit hatte zu gehen. Beachte die luftige Struktur des Teigs.
 
 ![This is how my dough looks like](https://i.imgur.com/W5JwLZV.jpg)
 
@@ -92,17 +92,17 @@ Jetzt lassen wir den Teig für 15 Minuten ruhen, ohne ihn anzufassen.
 
 **12:15: Den Teig aufteilen**
 
-Für den nächsten Schritt brauchen wir wieder eine Waage, einen Teigschaber (auch Teigkarte genannt, ein Messer geht zur Not aber auch), einen verschließbaren Behälter und Olivenöl.
+Für den nächsten Schritt brauchen wir wieder eine Waage, einen Teigschaber (auch Teigkarte genannt, ein Messer geht aber auch), einen verschließbaren Behälter und Olivenöl.
 
 ![The setup for the next phase](https://i.imgur.com/xmh7QUZ.jpg)
 
-Schneide den Teig in die gewünschte Größe für die Pizzen. Wenn einzelne Bälle zu klein oder groß sind, kannst Du weitere Stücke vom größeren Stück abschneiden. Der Teig sollte leicht an der Oberfläche kleben. Mit dem Teigschaber kannst Du aber mit einer schnellen Bewegung den Teig heben und auf der Arbeitsfläche bewegen. Um zu verhinden, dass der Teig an den Händen klebt, kannst Du sie wieder mit kaltem Wasser befeuchten. Ist der Teig gleichmäßig aufgeteilt, solltest Du direkt mit dem nächsten Schritt beginnen. Wenn der Teig ein paar Minuten liegt, ist das allerdings auch kein Problem. 
+Schneide den Teig in die gewünschte Größe für die Pizzen. Wenn einzelne Bälle zu klein oder groß sind, kannst Du weitere Stücke vom größeren Stück abschneiden und dem kleineren hinzufügen. Der Teig sollte leicht an der Oberfläche kleben. Mit dem Teigschaber kannst Du aber mit einer schnellen Bewegung den Teig heben und auf der Arbeitsfläche bewegen. Um zu verhinden, dass der Teig an den Händen klebt, kannst Du sie wieder mit kaltem Wasser befeuchten. Ist der Teig gleichmäßig aufgeteilt, solltest Du direkt mit dem nächsten Schritt beginnen. Wenn der Teig ein paar Minuten liegt, ist das allerdings auch kein Problem. 
 
 **12:30: Die Teigbälle formen**
 
 Dieser Schritt ist der schwerste. Jetzt müssen wir die Teigstücke in schöne, glatte Teigbälle formen. Das funktioniert nur, wenn kein Mehl auf der Arbeitsfläche verteilt ist. Ich musste auf dem harten Weg lernen. Der Teig muss auf der Arbeitsfläche kleben. Nur dann kann mithilfe der Klebrigkeit des Teigs Spannung an der Teigoberfläche aufgebaut werden. [Dieses Video zeigt, wie der Teig in ein Ball geformt werden kann](https://youtu.be/vEG1BjWroT0?t=254). Ein Teigschaber ist nicht unbedingt nötig. Man kann auch einen Spachtel oder die eigenen Hände verwenden (die Du dann aber vorher anfeuchten solltest). Achte auf den richtigen Winkel wie im Video, da ansonsten der Teig umdrehen könnte.
 
-Lege die Bälle in den geölten Behälter und öle die die Teigbälle auch von oben. Damit verhindern wir, dass die Bälle aneinanderkleben und Feuchtigkeit verlieren. Außerdem lassen sie sich dadurch später leicht wieder aus dem Behälter rausnehmen. Im Bild unten kann den den Behälter mit den Teigbällen sehen. Gut zu sehen sind die schönen Luftblasen im Teig. Wenn Du soweit gekommen bist - gute Arbeit. Wir haben jetzt ca. 80% unseres Weges zum perfekten Pizzateig zurückgelegt.
+Lege die Bälle in den geölten Behälter und öle die die Teigbälle auch von oben. Damit verhindern wir, dass die Bälle aneinanderkleben und Feuchtigkeit verlieren. Außerdem lassen sie sich dadurch später leicht wieder aus dem Behälter rausnehmen. Im Bild unten kannst Du meinen Behälter mit den Teigbällen sehen. Gut zu sehen sind die schönen Luftblasen im Teig. Wenn Du soweit gekommen bist - gute Arbeit! Wir haben jetzt ca. 80% unseres Weges zum perfekten Pizzateig zurückgelegt.
 
 ![This is how my dough balls look in the container](https://i.imgur.com/L5GzPHm.jpg)
 
@@ -110,13 +110,13 @@ Theoretisch könnten wir jetzt schon Pizza machen. Allerdings sorgt das Gehenlas
 
 **23:00: Die Teigbälle ein weiteres Mal formen**
 
-Eine Stunde vor dem Backen sehen meine Teigbälle für gewöhnlich wie folgt aus:
+Eine Stunde vor dem Backen sehen meine Teigrohlinge für gewöhnlich wie folgt aus:
 
 ![Dough balls before baking](https://i.imgur.com/OCoRyOB.jpg)
 
-Mit einem Messer trennen wir die Bälle wieder voneinander und platzieren sie auf einer freien Oberfläche (ohne Mehl). Versuche beim Schneiden sehr vorsichtig zu sein, um den Teig so wenig wie möglich einzureißen. Je zarter Du vorgehst, desto mehr bleibt der wichtigen Struktur des Teigs erhalten. Gleichzeitig erwärmt sich der Teig wieder auf Zimmertemperatur.
+Mit einem Messer trennen wir die Bälle wieder voneinander und platzieren sie auf einer freien Oberfläche (ohne Mehl). Versuche beim Schneiden sehr vorsichtig zu sein, um den Teig so wenig wie möglich einzureißen. Je zarter Du vorgehst, desto mehr bleibt von der wichtigen Struktur des Teigs erhalten. Gleichzeitig erwärmt sich der Teig wieder auf Zimmertemperatur.
 
-Forme wie am Morgen den Teig in schön geformte Bälle. Diese werden wir gleich für unsere Pizza verwenden. Öle sie wieder leicht mit Olivenöl ein, um ein Austrocknen zu verhinden. Alternativ kannst Du die Teigbälle auch mit einem Küchentuch zudecken.
+Forme wie am Morgen den Teig in schöne Bälle. Diese werden wir bald für unsere Pizza verwenden. Öle sie wieder leicht mit Olivenöl ein, um ein Austrocknen zu verhinden. Alternativ kannst Du die Teigbälle auch mit einem Küchentuch zudecken.
 
 Die Teigbälle sollten nun ungefähr wie im Bild unten aussehen.
 
@@ -138,11 +138,11 @@ Beginne von der Mitte heraus den Teig leicht nach unten zu drücken, um die Luft
 
 *Step 3:*
 
-Hebe die Pizza an einem der Ränder hoch. Dadurch sollte der Teig gestreckt und das Innere immer dünner und durchsichtiger werden (wie im ersten Bild dieses Guides). Drehe die regelmäßig die Pizza, um eine gleichmäßige Streckung sicherzustellen. Wenn einige Stellen noch zu dick sind, können diese einfach per Hand auseinander gezogen werden. Das Innere der Pizza sollte nun maximal 1 bis 2mm dick sein.
+Hebe die Pizza an einem der Ränder hoch. Dadurch sollte der Teig gestreckt und das Innere immer dünner und durchsichtiger werden (wie im ersten Bild dieses Guides). Drehe regelmäßig die Pizza, um eine gleichmäßige Streckung sicherzustellen. Wenn einige Stellen noch zu dick sind,können diese einfach per Hand auseinander gezogen werden. Das Innere der Pizza sollte nun maximal 1 bis 2mm dick sein.
 
 Alternativ kann die Pizza auch weiter per Hand ausgedrückt werden. Allerdings geht dabei mehr Luft im Teig verloren. Wer mutig ist und wie ein echter Pizzabäcker wirken möchte, kann die [Pizza auch die Luft werfen und der Schwerkraft das Strecken der Pizza überlassen](https://youtu.be/ZHq-gFDodxg).
 
-Jetzt wo der Teig fertig und ausgerollt ist, sollte er am besten auf eine Pizzaschaufel gelegt werden. Um sicherzustellen, dass der Teig wieder runterrutscht sollte diese vorher mit Grießmehl eingedeckt werden. Ebenfalls wichtig ist es, dass die Pizza nun schnell belegt wird - am besten innerhalb von maximal 30 Sekunden. Ansonsten kann es passieren, dass die Pizza an der Schaufel klebt und eine große Sauerei verursacht.
+Jetzt wo der Teig fertig und ausgerollt ist, sollte er am besten auf eine Pizzaschaufel gelegt werden. Um sicherzustellen, dass der Teig wieder runterrutschen kann, sollte diese vorher mit Grießmehl eingedeckt werden. Ebenfalls wichtig ist es, dass die Pizza nun schnell belegt wird - am besten innerhalb von maximal 30 Sekunden. Ansonsten kann es passieren, dass die Pizza an der Schaufel klebt und eine große Sauerei verursacht.
 
 *Schritt 4:*
 
