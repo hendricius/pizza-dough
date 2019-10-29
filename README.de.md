@@ -36,9 +36,9 @@ Um die Berechnung der Zutatenmengen zu vereinfachen, habe ich einen [kleinen Rec
 
 ## Das richtige Mehl
 
-Das Mehl die wichtigste Zutat des Teigs. Daher dient hier ein eigenes Kapitel dazu, das richtige Mehl zu finden. Erfahrene Pizzabäcker können einige Defizite von schlechtem Mehl umgehen. Für Einsteiger kann das Mehl allerdings der Unterschied zwischen einer grandiosen Pizza oder eines kompletten Reinfalls sein.
+Das Mehl ist die wichtigste Zutat des Teigs. Daher dient hier ein eigenes Kapitel dazu, das richtige Mehl zu finden. Erfahrene Pizzabäcker können einige Defizite von schlechtem Mehl umgehen. Für Einsteiger kann das Mehl allerdings der Unterschied zwischen einer grandiosen Pizza oder eines kompletten Reinfalls sein.
 
-Es gibt aber eine Fausregel: **Nimm' ein Mehl mit hohem Proteinanteil.**
+Es gibt aber eine Faustregel: **Nimm' ein Mehl mit hohem Proteinanteil.**
 
 Am besten ist ein Mehl mit möglichst viel Protein. Gut sind daher Brotmehl (bread flour) oder Allzweckmehl (all-purpose flour) \[**Anmerkung des Übersetzers**: Diese Namen sind in Deutschland nicht gebräuchlich, da Mehl nach DIN 10355 klassifiziert werden. Vergleichbar sind wahrscheinlich am ehesten Weizenmehl Typ 405 oder Typ 550\]. Nimm' das Mehl mit dem größten Proteinanteil. Je mehr, desto besser für die Pizza. Der Grund hierfür liegt im Inneren des Weizenkerns (vgl. Bild unten). Brotmehl (bread flour) besteht nur aus dem Keim (Germ) und dem Endosperm des Weizenkerns. Die Kleie (Bran) ist zu faserig, was sich negativ auf die Glutenmatrix auswirken kann, die sich im Teig entwickeln soll. Der genaue Proteinanteil der einzelnen Komponenten den Kerns hängt natürlich auch mit dem verwendeten Weizen zusammen. Bei bestimmeten Typen hat das Endosperm den größten Proteinanteil. Als Beispiel wird in Italien häufig `Tipo 00`-Mehl verwendet, das nur den Endosperm enthält. Im `Caputo`-Mehl beträgt der Proteinanteil des Endosperm 13%. Allgemein gilt, ein Weizenmehl mit möglichst viel Protein zu verwenden.
 
@@ -58,7 +58,7 @@ Gebe alle Zutaten in eine großen Schüssel und verrühre den Teig mit den Händ
 
 Nun lassen wir den Teig gehen und die Hefe gären.
 
-**0:30 Stunden nach dem Mixen: Strecken und Falten 1**
+**0:30: Stunden nach dem Mixen: Strecken und Falten 1**
 
 Es folgenden mehrere Durchläufe, in denen der Teig lang gezogen und gefaltet wird. Auch ohne dieses Kneten erhält man sehr guten Teig, dennoch empfehle ich die folgenden Schritte durchzuführen.
 
