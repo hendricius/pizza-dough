@@ -14,6 +14,8 @@ If you look at the popular brand `Caputo` it started selling its wheat flour in 
 
 The traditional Neapolitan workflow has always been to create the dough on the night before baking the pizza. This is one of the core features of creating a dough that has a great taste on its own. In fact - you could just bake the whole dough as a bread and it would taste awesome. A combination of room temperature fermentation and cold fermentation creates special enzymes which foster the complex but very pleasant taste of the pizza dough.
 
+A german translation of the recipe can be found [here](README.de.md).
+
 ## Ingredients
 
 To the novice pizza baker it is surprising how few ingredients you need to make a pizza dough. The quantities of ingredients are specified as percentages of the mass of the flour that you use:
