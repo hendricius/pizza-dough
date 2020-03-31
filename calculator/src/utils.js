@@ -4,7 +4,7 @@ export const defaultOptions = () => {
     return {
         weight: 200,
         count: 2,
-        water: 0.65,
+        water: 0.60,
         salt: 0.02,
         sourdoughPercent: 0.2,
         sourdoughHydration: 1,

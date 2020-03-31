@@ -9,6 +9,7 @@ const optionsFromQueryString = (parsedOptions) => ({
     weight: parseNum(parsedOptions.weight),
     count: parseNum(parsedOptions.count),
     salt: parseNum(parsedOptions.salt),
+    water: parseNum(parsedOptions.water),
     dryYeastPercent: parseNum(parsedOptions.dryYeastPercent),
     sourdoughPercent: parseNum(parsedOptions.sourdoughPercent),
     sourdoughHydration: parseNum(parsedOptions.sourdoughHydration),
