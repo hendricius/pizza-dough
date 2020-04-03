@@ -88,8 +88,9 @@ class Calculator extends React.Component {
               can easily scale up the amount of pizzas that you want to bake.
             </p>
             <div className="more-info-links">
-              <a href="https://github.com/hendricius/pizza-dough">📚 See full recipe</a>
+              <a href="https://github.com/hendricius/pizza-dough"><span role="img" aria-label="Book">📚</span> See full recipe</a>
               <a href="https://www.reddit.com/user/the_bread_code">Reddit</a>
+              <a href="https://www.youtube.com/c/TheBreadCode">YouTube</a>
               <a href="https://instagram.com/the_bread_code/">Instagram</a>
             </div>
           </div>

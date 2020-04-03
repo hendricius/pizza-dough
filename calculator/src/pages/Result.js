@@ -5,6 +5,7 @@ import IngredientList from "../components/IngredientList";
 import { defaultOptions, ingredientsListYeast, ingredientsListSourdough } from "../utils";
 
 const parseNum = (value) => value ? parseFloat(value) : undefined;
+
 const optionsFromQueryString = (parsedOptions) => ({
     weight: parseNum(parsedOptions.weight),
     count: parseNum(parsedOptions.count),
@@ -24,7 +25,7 @@ const Result = props => {
 
   const options = {
     ...base,
-    freshYeastPercent: (base.freshYeastPercent > 0 ? base.freshYeastPercent : base.dryYeastPercent * 3),
+    freshYeastPercent: (base.dryYeastPercent * 3),
   }
 
   const ingredients = parsed.yeast ? ingredientsListYeast(options) : ingredientsListSourdough(options);
