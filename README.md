@@ -88,6 +88,8 @@ This is the time I usually go to bed and continue in the morning.
 
 Depending on your timing the next morning conduct another stretch and fold. You should see a good amount of gas pockets on your dough. When doing this stretch and fold your dough is likely going to degas a little. Do not worry. Imagine you had used more yeast? All that amazing gas would have been lost over the night.
 
+**12:00: Shape the dough**
+
 Directly after you finished shaping place the dough on a surface in your kitchen. Below is an example picture of how my dough looks like after the over night bulk ferment. Note the airy structure the dough has.
 
 ![This is how my dough looks like](https://i.imgur.com/W5JwLZV.jpg)
