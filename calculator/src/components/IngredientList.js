@@ -28,6 +28,7 @@ export default class IngredientList extends Component {
                 breakdown={ing.breakdown ? ing.breakdown : []}
                 description={ing.description}
                 count={this.props.pizzaCount}
+                round={!!ing.round}
                 key={i}
                 intro={ing.intro}
               />

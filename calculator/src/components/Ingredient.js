@@ -5,8 +5,8 @@ export default class Ingredient extends Component {
     return (percent * 100).toFixed(2) + "%";
   }
 
-  formatTotalOfIngredient(total) {
-    return (total).toFixed(2);
+  formatTotalOfIngredient(total, round) {
+    return round ? Math.round(total) : total.toFixed(2);
   }
 
   render() {
@@ -19,7 +19,7 @@ export default class Ingredient extends Component {
           </div>
           <div className="ingredient-element number">
             <p className="ingredient-amount">
-              {this.formatTotalOfIngredient(this.props.absolute * this.props.count)}
+              {this.formatTotalOfIngredient(this.props.absolute * this.props.count, this.props.round)}
             </p>
             <p>&nbsp;g</p>
           </div>
@@ -37,7 +37,7 @@ export default class Ingredient extends Component {
                 </div>
                 <div className="ingredient-element number">
                   <p className="ingredient-amount">
-                    {this.formatTotalOfIngredient(ing.absolute * this.props.count)}
+                    {this.formatTotalOfIngredient(ing.absolute * this.props.count, this.props.round)}
                   </p>
                   <p>&nbsp;g</p>
                 </div>
