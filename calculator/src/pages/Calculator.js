@@ -66,13 +66,16 @@ class Calculator extends React.Component {
               max="1"
             >
               <small className="text-muted">
-                1) Pick the amount of pizzas you want to bake and your desired
-                final dough weight.
-                <br />
-                2) You can optionally select the hydration of your dough or use
-                the default 60%.
-                <br />
-                3) Choose between a yeast based dough or sourdough based dough.
+                <p>
+                  1) Pick the amount of pizzas you want to bake and your desired
+                  final dough weight. The weight depends on the size of your oven.</p>
+                <p>
+                  2) You can optionally select the hydration of your dough or use
+                  the default 60%. This value depends on your flour.
+                </p>
+                <p>
+                  3) Choose between a yeast based dough or sourdough based dough.
+                </p>
               </small>
             </Input>
 
@@ -89,8 +92,8 @@ class Calculator extends React.Component {
           <div className="more-info">
             <h1>Background</h1>
             <p>
-              Typically the pizza dough weighs between 200 and 250 grams. For a
-              home oven 200 grams is a recommended size. Change this value
+              Typically the pizza dough weighs between 200 and 280 grams. For a
+              home oven 250 grams is a recommended size. Change this value
               depending on the size of your oven.
             </p>
             <p>

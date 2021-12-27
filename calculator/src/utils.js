@@ -2,7 +2,7 @@ export const defaultOptions = () => {
   const dryYeast = 0.0005;
   const freshYeast = dryYeast * 3;
   return {
-    weight: 200,
+    weight: 250,
     count: 2,
     water: 0.6,
     salt: 0.02,
