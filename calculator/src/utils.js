@@ -47,11 +47,13 @@ export const ingredientsListYeast = (options) => {
       name: "Flour",
       absolute: flourPerPizza,
       percentage: 1,
+      round: true,
     },
     {
       name: "Water",
       absolute: finalWaterPerPizza,
       percentage: options.water,
+      round: true,
     },
     {
       name: "Salt",
@@ -96,6 +98,7 @@ export const ingredientsListSourdough = (options) => {
       description:
         "The overall flour including the flour coming from the sourdough. This value is used as a basis for the calculation. The percentages of water, salt and sourdough are derived from this value. This value is just here for reference to visualize the calculation.",
       intro: true,
+      round: true
     },
     {
       name: "Required flour",
@@ -103,6 +106,7 @@ export const ingredientsListSourdough = (options) => {
       percentage: null,
       description:
         "Some flour is already added from the sourdough to the dough. This reduces the additional flour needed. This value represents the additional flour that you need besides your sourdough flour.",
+      round: true
     },
     {
       name: "Sourdough",
@@ -125,6 +129,7 @@ export const ingredientsListSourdough = (options) => {
       name: "Water",
       absolute: addedWaterPerPizza,
       percentage: water,
+      round: true,
     },
     {
       name: "Salt",
