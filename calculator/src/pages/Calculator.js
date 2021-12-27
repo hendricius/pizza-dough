@@ -118,8 +118,8 @@ class Calculator extends React.Component {
                 </span>{" "}
                 See full recipe
               </a>
-              <a href="https://www.reddit.com/user/the_bread_code">Reddit</a>
-              <a href="https://www.youtube.com/c/TheBreadCode">YouTube</a>
+              <a href="https://www.youtube.com/watch?v=-60DxtcJ9Fo">YouTube</a>
+              <a href="https://thbrco.io/discord">Discord</a>
               <a href="https://instagram.com/the_bread_code/">Instagram</a>
             </div>
           </div>

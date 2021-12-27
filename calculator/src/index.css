@@ -326,9 +326,6 @@ a.close {
   .container {
     justify-content: center;
   }
-  .header {
-    padding-top: 300px;
-  }
   .view-header {
     margin-top: 10px;
   }
