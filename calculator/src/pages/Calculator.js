@@ -116,11 +116,11 @@ class Calculator extends React.Component {
                 <span role="img" aria-label="Book">
                   📚
                 </span>{" "}
-                See full recipe
+                Full recipe
               </a>
               <a href="https://www.youtube.com/watch?v=-60DxtcJ9Fo">YouTube</a>
               <a href="https://thbrco.io/discord">Discord</a>
-              <a href="https://instagram.com/the_bread_code/">Instagram</a>
+              <a href="https://play.google.com/store/apps/details?id=com.smassive.pizzacalculator">Android App</a>
             </div>
           </div>
           <div className="text-muted pwa" id="pwa">

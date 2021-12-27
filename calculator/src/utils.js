@@ -59,6 +59,7 @@ export const ingredientsListYeast = (options) => {
       name: "Salt",
       absolute: saltPerPizza,
       percentage: salt,
+      round: true
     },
     {
       name: "Dry Yeast",
@@ -112,16 +113,19 @@ export const ingredientsListSourdough = (options) => {
       name: "Sourdough",
       absolute: sourdoughMassPerPizza,
       percentage: sourdoughPercent,
+      round: true,
       breakdown: [
         {
           name: "... Water",
           percentage: sourdoughPercent * (sourdoughHydration / 2),
           absolute: sourdoughWater,
+          round: true,
         },
         {
           name: "... Flour",
           percentage: sourdoughPercent * (sourdoughHydration / 2),
           absolute: sourdoughFlour,
+          round: true,
         },
       ],
     },
@@ -135,6 +139,7 @@ export const ingredientsListSourdough = (options) => {
       name: "Salt",
       absolute: saltPerPizza,
       percentage: salt,
+      round: true
     },
   ];
   return ingredients;
