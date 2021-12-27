@@ -1,12 +1,10 @@
 # Pizza Dough
 
-This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Olang`(`Valdaora`<sup>1</sup>). For years I have been obsessed with tasting different pizzas, observing how the *pizzaioli* make the dough. I have tried endless times, discussed with people from all over the world. This repo is dedicated to sharing my quest of figuring out the best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
+This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Olang`(`Valdaora`<sup>1</sup>). For years I have been obsessed with tasting different pizzas, observing how the *pizzaioli* make the dough. I have tried endless times, discussed with people from all over the world<sup>2</sup>. This repo is dedicated to sharing best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
 
-![Me making a nice pizza](https://i.imgur.com/x2jxzde.jpg)
+![The perfect pizza dough](/images/shaping-pizza.jpg)
 
-### Disclaimer
-
-I in no way claim that all of the information here is scientifically correct. This is not a work of professional science, but more a work of my endless research over the years. If you can further back some of my observations by scientific articles I would be more than happy if you created a pull request.
+## Background
 
 The Neapolitan pizza is characterised by a relatively high edge and a thin center of the pizza. The only ingredients required to make the dough are flour, water, salt and yeast. Historically sourdough has been used as an alternative to yeast.
 
@@ -16,9 +14,7 @@ If you look at the popular brand `Caputo` it started selling its wheat flour in 
 
 The traditional Neapolitan workflow has always been to create the dough on the night before baking the pizza. This is one of the core features of creating a dough that has a great taste on its own. In fact - you could just bake the whole dough as a bread and it would taste awesome. A combination of room temperature fermentation and cold fermentation creates special enzymes which foster the complex but very pleasant taste of the pizza dough.
 
-A german translation of the recipe can be found [here](README.de.md).
-
-## Ingredients
+## Dough Ingredients
 
 To the novice pizza baker it is surprising how few ingredients you need to make a pizza dough. The quantities of ingredients are specified as percentages of the mass of the flour that you use:
 
@@ -36,13 +32,13 @@ So assuming you want to bake 2 tiny pizzas, you would be using 200 grams of flou
 - 4 grams of salt
 - 0.1 grams of dry yeast or 0.3 grams of fresh yeast
 
-A typical Pizza in Napoli has a final dough mass before making of around 250 grams. However in Napoli the ovens are also significantly larger. Thus I suggest the home baker to reduce this to around 220 grams dough weight of the pizza. On the picture above you can see me making one of those 220 gram pizzas.
+A typical Pizza in Napoli has a final dough mass before making of around 250 grams.
 
 Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 65% of the mass of the flour – so how much flour do you actually need for a 220 gram pizza? If you don't feel like doing the math [use my small calculator.](https://pizza-calculator.the-bread-code.io)
 
-## Picking the right flour
+## Choosing the flour
 
-There is an additional chapter dedicated to picking the right flour. The flour is the essential ingredient of your dough. It can all start very well with the right flour but can go totally wrong with the wrong flour. The experienced *pizzaiolo* is able to work around some of the deficits of the flour, but for a novice this can be the factor between epic success or big ass fail.
+The flour is the essential ingredient of your dough. It can all start very well with the right flour but can go totally wrong with the wrong flour. The experienced *pizzaiolo* is able to work around some of the deficits of the flour, but for a novice this can be the factor between epic success or big ass fail.
 
 The rule of thumb: **Pick a flour that has high protein content.**
 
@@ -52,7 +48,25 @@ You want as much protein in your bread as possible. The flour you should be look
 
 ## Making the dough
 
-The trick to making an excellent pizza is time. Good things take time. If you observe Italian pizzerias you will notice that most of them make the dough the night or even 24/48 hours before. They allow their dough time to develop flavour and strength. Enzymatic reactions conducted by the yeast are the reason for flavour. Time allows your dough to develop a stronger gluten network. A strong gluten network is your goal to allow the dough to stick together, hold the gas the yeast creates plus make an excellent surface for your toppings. Yes - you can speed things up by using more yeast, but if possible - I advise to make your dough 24 hours before you plan to make the pizza. My kitchen usually has a solid 20°C throughout the whole year. Depending on the temperature the yeast is either more active, or less active. Warmer temperature makes the yeast more active. Colder temperature reduces the process. You can alter the initial speed by using warmer or colder water.
+The perfect dough takes time to develop more flavor.
+This is because the process of mixing flour and water will start the germination process.
+Of course, the flour is ground, but still, the enzymes that are triggered through water will
+start doing their job. The most important 2 enzymes are amylase and protease. Amylase will
+start to break down your starch into easier-digestible sugars (food for the yeast) and the protease
+will start to convert the gluten from storage mode into shorter amino acids. If you use too much yeast
+then you will not have these effects in your dough. With more yeast your dough would become fluffy
+way too fast. You will want those reactions to happen and they take time. If you wait for too
+long then your flour is broken down and you have a sticky unusable dough. The secret
+is to find the balance between long enough and not too long fermentation.
+
+This recipe has been developed during summer time. In summer time the fermentation is faster. Just
+a few degrees change in temperature will make the whole process a lot faster or slower.
+
+So in winter times when it's colder in your kitchen (less than 20°C) use the double amount of yeast.
+In summer times use the values provided in the recipe. You can also adjust the timing of course
+by using warmer or colder water.
+
+![The germination process](/images/germination.png)
 
 The following chapter will assume a 24 hour cycle to make the dough. In my case that would usually be 8 pm, if I wanted to bake the day after at 8pm.
 
@@ -157,13 +171,18 @@ Topping/baking is beyond this guide. But you ideally want to bake the pizza in a
 
 Make sure you pre-heat the oven to maximum temperature. If your oven has a grill function, use it. Wait until your pizza turns brown on the edge. *Buon appetito!*
 
-![A pizza Margherita](https://i.imgur.com/zH36flU.jpg)
+![A Neapolitan Pizza](/images/neapolitan-pizza.jpg)
 
 
 ---
 
 <sup>1</sup> Olang is located in South Tyrol, a german-speaking area in north-Italy. `Valdaora` is the non-native, translated Italian name of it.
+<sup>2</sup> I have visited Enzo Coccia's pizzeria in Naples and worked [there for a day as a pizzaiolo](https://www.youtube.com/watch?v=EI4RoemHe5M). Furthermore I also visited a local pizzeria nearby to [learn about making pizza dough.](https://www.youtube.com/watch?v=KX4NFkOpNAA)
 
 ## Resources
 
 [RESOURCES.md](RESOURCES.md) gathers all external information we love about pizza dough and pizza in general. If it's a blog article, or a research paper, or anything related to pizza... It's there.
+
+## Disclaimer
+
+I in no way claim that all of the information here is scientifically correct. This is not a work of professional science, but more a work of my endless research over the years. If you can further back some of my observations by scientific articles I would be more than happy if you created a pull request.
