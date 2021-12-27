@@ -1,8 +1,8 @@
 # Pizza Dough
 
-This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Olang`(`Valdaora`<sup>1</sup>). For years I have been obsessed with tasting different pizzas, observing how the *pizzaioli* make the dough. I have tried endless times, discussed with people from all over the world. This repo is dedicated to sharing my quest of figuring out the best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
+This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Olang`(`Valdaora`<sup>1</sup>). For years I have been obsessed with tasting different pizzas, observing how the *pizzaioli* make the dough. I have tried endless times, discussed with people from all over the world<sup>2</sup>. This repo is dedicated to sharing best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
 
-![Me making a nice pizza](https://i.imgur.com/x2jxzde.jpg)
+![The perfect pizza dough](/images/pizza-dough.jpg)
 
 ### Disclaimer
 
@@ -52,7 +52,25 @@ You want as much protein in your bread as possible. The flour you should be look
 
 ## Making the dough
 
-The trick to making an excellent pizza is time. Good things take time. If you observe Italian pizzerias you will notice that most of them make the dough the night or even 24/48 hours before. They allow their dough time to develop flavour and strength. Enzymatic reactions conducted by the yeast are the reason for flavour. Time allows your dough to develop a stronger gluten network. A strong gluten network is your goal to allow the dough to stick together, hold the gas the yeast creates plus make an excellent surface for your toppings. Yes - you can speed things up by using more yeast, but if possible - I advise to make your dough 24 hours before you plan to make the pizza. My kitchen usually has a solid 20°C throughout the whole year. Depending on the temperature the yeast is either more active, or less active. Warmer temperature makes the yeast more active. Colder temperature reduces the process. You can alter the initial speed by using warmer or colder water.
+The perfect dough takes time to develop more flavor.
+This is because the process of mixing flour and water will start the germination process.
+Of course, the flour is ground, but still, the enzymes that are triggered through water will
+start doing their job. The most important 2 enzymes are amylase and protease. Amylase will
+start to break down your starch into easier-digestible sugars (food for the yeast) and the protease
+will start to convert the gluten from storage mode into shorter amino acids. If you use too much yeast
+then you will not have these effects in your dough. With more yeast your dough would become fluffy
+way too fast. You will want those reactions to happen and they take time. If you wait for too
+long then your flour is broken down and you have a sticky unusable dough. The secret
+is to find the balance between long enough and not too long fermentation.
+
+This recipe has been developed during summer time. In summer time the fermentation is faster. Just
+a few degrees change in temperature will make the whole process a lot faster or slower.
+
+So in winter times when it's colder in your kitchen (less than 20°C) use the double amount of yeast.
+In summer times use the values provided in the recipe. You can also adjust the timing of course
+by using warmer or colder water.
+
+![The germination process](/images/germination.jpg)
 
 The following chapter will assume a 24 hour cycle to make the dough. In my case that would usually be 8 pm, if I wanted to bake the day after at 8pm.
 
@@ -157,12 +175,13 @@ Topping/baking is beyond this guide. But you ideally want to bake the pizza in a
 
 Make sure you pre-heat the oven to maximum temperature. If your oven has a grill function, use it. Wait until your pizza turns brown on the edge. *Buon appetito!*
 
-![A pizza Margherita](https://i.imgur.com/zH36flU.jpg)
+![A Neapolitan Pizza](/images/neapolitan-pizza.jpg)
 
 
 ---
 
 <sup>1</sup> Olang is located in South Tyrol, a german-speaking area in north-Italy. `Valdaora` is the non-native, translated Italian name of it.
+<sup>2</sup> I have visited Enzo Coccia's pizzeria in Naples and worked [there for a day as a pizzaiolo](https://www.youtube.com/watch?v=EI4RoemHe5M). Furthermore I also visited a local pizzeria nearby to [learn about making pizza dough.](https://www.youtube.com/watch?v=KX4NFkOpNAA)
 
 ## Resources
 
