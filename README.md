@@ -177,6 +177,7 @@ Make sure you pre-heat the oven to maximum temperature. If your oven has a grill
 ---
 
 <sup>1</sup> Olang is located in South Tyrol, a german-speaking area in north-Italy. `Valdaora` is the non-native, translated Italian name of it.
+
 <sup>2</sup> I have visited Enzo Coccia's pizzeria in Naples and worked [there for a day as a pizzaiolo](https://www.youtube.com/watch?v=EI4RoemHe5M). Furthermore I also visited a local pizzeria nearby to [learn about making pizza dough.](https://www.youtube.com/watch?v=KX4NFkOpNAA)
 
 ## Resources
