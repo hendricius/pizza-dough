@@ -27,7 +27,7 @@ Calculating the quantity of water, salt, and yeast as percentages of the flour m
 
 So assuming you want to bake 2 tiny pizzas, you would be using 200 grams of flour. In reality it's a little more, I am just using this as an easier to understand math example. Don't worry - the calculator follows later. Your ingredients would look like this.
 
-- 200 grams
+- 200 grams of flour
 - 120 grams of warm water
 - 4 grams of salt
 - 0.1 grams of dry yeast or 0.3 grams of fresh yeast
