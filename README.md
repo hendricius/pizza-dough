@@ -1,31 +1,31 @@
 # Pizza Dough
 
-This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Olang`(`Valdaora`<sup>1</sup>). For years I have been obsessed with tasting different pizzas, observing how the *pizzaioli* make the dough. I have tried endless times, discussed with people from all over the world<sup>2</sup>. This repo is dedicated to sharing best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
+This recipe is dedicated to helping you make the best possible pizza dough for Neapolitan pizza. My personal motivation has always been to recreate one of my childhood memories - a pizza in a small restaurant named `Panorama` in the Italian city of `Olang`(`Valdaora`<sup>1</sup>). For years I have been obsessed with tasting different pizzas, and observing how the *Pizzaioli* make the dough. I have tried it endless times, and discussed it with people from all over the world<sup>2</sup>. This repo is dedicated to sharing best possible pizza dough. Please note - this guide is scoped to the dough only, not the actual baking/topping of the pizza.
 
 ![The perfect pizza dough](/images/shaping-pizza.jpg)
 
 ## Background
 
-The Neapolitan pizza is characterised by a relatively high edge and a thin center of the pizza. The only ingredients required to make the dough are flour, water, salt and yeast. Historically sourdough has been used as an alternative to yeast.
+The Neapolitan pizza is characterized by a relatively high edge and a thin center of the pizza. The only ingredients required to make the dough are flour, water, salt, and yeast. Historically sourdough has been used as an alternative to yeast.
 
-However the Neapolitan pizza association (Associazione Verace Pizza Napoletana) [clearly states](http://americas.pizzanapoletana.org/foto/allegati/AVPN_Disciplinare.pdf) that only yeast should be used to make the dough. This can be debated as our ancestors did not have access to yeast, they were using sourdough for their pizza. Also it can be debated whether our ancestors did truly make pizza, since a high amount of gluten in the wheat is required to make the dough. The gluten is the core factor that allows us to stretch the dough apart and make it thin on the interior. It is also the factor that allows air to be trapped inside of the dough, creating the open edge filled with tiny alveoli. This high gluten flour did not exist for a long time.
+However, the Neapolitan pizza association (Associazione Verace Pizza Napoletana) [clearly states](http://americas.pizzanapoletana.org/foto/allegati/AVPN_Disciplinare.pdf) that only yeast should be used to make the dough. This can be debated as our ancestors did not have access to yeast, they were using sourdough for their pizza. Also, it can be debated whether our ancestors did truly make pizza since a high amount of gluten in the wheat is required to make the dough. The gluten is the core factor that allows us to stretch the dough apart and make it thin on the interior. It is also the factor that allows air to be trapped inside of the dough, creating the open edge filled with tiny alveoli. This high gluten flour did not exist for a long time.
 
-If you look at the popular brand `Caputo` it started selling its wheat flour in 1924. New kinds of flour have been developed using radioactivity, or toxins. This resulted in faster genetic mutations which then increased the yield of the crop. So it can be argued that when pizza was created new flour and modern yeast had already been available. Using yeast is easier than sourdough, since you have fewer variables you need to control. For example if fermented too long a sourdough have a negative impact on the gluten structure of the dough. These factors can be more easily controlled with regular yeast.
+If you look at the popular brand `Caputo` it started selling its wheat flour in 1924. New kinds of flour have been developed using radioactivity, or toxins. This resulted in faster genetic mutations which then increased the yield of the crop. So it can be argued that when pizza was created new flour and modern yeast had already been available. Using yeast is easier than sourdough since you have fewer variables you need to control. For example, if fermented too long a sourdough have a negative impact on the gluten structure of the dough. These factors can be more easily controlled with regular yeast.
 
-The traditional Neapolitan workflow has always been to create the dough on the night before baking the pizza. This is one of the core features of creating a dough that has a great taste on its own. In fact - you could just bake the whole dough as a bread and it would taste awesome. A combination of room temperature fermentation and cold fermentation creates special enzymes which foster the complex but very pleasant taste of the pizza dough.
+The traditional Neapolitan workflow has always been to create the dough on the night before baking the pizza. This is one of the core features of creating a dough that has a great taste on its own. In fact, you could just bake the whole dough as a piece of bread and it would taste awesome. A combination of room temperature fermentation and cold fermentation creates special enzymes which foster the complex but very pleasant taste of the pizza dough.
 
 ## Dough Ingredients
 
-To the novice pizza baker it is surprising how few ingredients you need to make a pizza dough. The quantities of ingredients are specified as percentages of the mass of the flour that you use:
+To the novice pizza baker, it is surprising how few ingredients you need to make pizza dough. The quantities of ingredients are specified as percentages of the mass of the flour that you use:
 
 - Flour
 - 60.00% Warm Water
 - 2.00% Salt
 - 0.05% Dry yeast or 0.15% fresh yeast
 
-Calculating the quantity of water, salt, and yeast as percentages of the flour makes it easy to scale up the recipe and make more pizzas. This is called bakers math. It makes very easy to adjust the desired output of pizzas you want to bake.
+Calculating the quantity of water, salt, and yeast as percentages of the flour makes it easy to scale up the recipe and make more pizzas. This is called bakers math. It makes it very easy to adjust the desired output of pizzas you want to bake.
 
-So assuming you want to bake 2 tiny pizzas, you would be using 200 grams of flour. In reality it's a little more, I am just using this as an easier to understand math example. Don't worry - the calculator follows later. Your ingredients would look like this.
+So assuming you want to bake 2 tiny pizzas, you would be using 200 grams of flour. In reality, it's a little more, I am just using this as an easier-to-understand math example. Don't worry - the calculator follows later. Your ingredients would look like this.
 
 - 200 grams of flour
 - 120 grams of warm water
@@ -34,15 +34,15 @@ So assuming you want to bake 2 tiny pizzas, you would be using 200 grams of flou
 
 A typical Pizza in Napoli has a final dough mass before making of around 250 grams.
 
-Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 60% of the mass of the flour – so how much flour do you actually need for a 220 gram pizza? If you don't feel like doing the math [use my small calculator.](https://pizza-calculator.the-bread-code.io)
+Now to make things a little easier I created a small dough calculator, that will tell you how much of each ingredient you need to make one pizza given the desired final weight of the dough. Remember – the amount of water in one pizza should be 60% of the mass of the flour – so how much flour do you actually need for a 220-gram pizza? If you don't feel like doing the math [use my small calculator.](https://pizza-calculator.the-bread-code.io)
 
 ## Choosing the flour
 
-The flour is the essential ingredient of your dough. It can all start very well with the right flour but can go totally wrong with the wrong flour. The experienced *pizzaiolo* is able to work around some of the deficits of the flour, but for a novice this can be the factor between epic success or big ass fail.
+The flour is the essential ingredient of your dough. It can all start very well with the right flour but can go totally wrong with the wrong flour. The experienced *pizzaiolo* is able to work around some of the deficits of the flour, but for a novice, this can be the factor between epic success or big ass fail.
 
 The rule of thumb: **Pick a flour that has high protein content.**
 
-You want as much protein in your bread as possible. The flour you should be looking for is Bread flour, or all purpose flour. Pick the one that has the highest amount of protein. The higher the protein the better the properties for pizza. The reason for that lies in the nature of the wheat kernel. The bread flour is a combination of the germ and the endosperm of the wheat kernel. The bran has too much fiber that has a negative consequence on the gluten matrix that you plan to develop. This of course also depends on each type of wheat that you have. In some specific types the endosperm might have more protein. For instance in Italy in many cases the `Tipo 00` flour is used. That's only the Endosperm. For `Caputo` flour that Endosperm already has around 13 grams of protein per 100 gram. Generally though, go for bread flour with high protein content.
+You want as much protein in your bread as possible. The flour you should be looking for is Bread flour or all-purpose flour. Pick the one that has the highest amount of protein. The higher the protein the better the properties of pizza. The reason for that lies in the nature of the wheat kernel. The bread flour is a combination of the germ and the endosperm of the wheat kernel. The bran has too much fiber that has a negative consequence on the gluten matrix that you plan to develop. This of course also depends on each type of wheat that you have. In some specific types, the endosperm might have more protein. For instance in Italy in many cases the `Tipo 00` flour is used. That's only the Endosperm. For `Caputo` flour that Endosperm already has around 13 grams of protein per 100 gram. Generally though, go for bread flour with high protein content.
 
 ![Overview of the wheat kernel by John. C (https://en.wikipedia.org/wiki/File:Wheat-kernel_nutrition.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wheat-kernel_nutrition.png/1112px-Wheat-kernel_nutrition.png)
 
@@ -54,12 +54,12 @@ Of course, the flour is ground, but still, the enzymes that are triggered throug
 start doing their job. The most important 2 enzymes are amylase and protease. Amylase will
 start to break down your starch into easier-digestible sugars (food for the yeast) and the protease
 will start to convert the gluten from storage mode into shorter amino acids. If you use too much yeast
-then you will not have these effects in your dough. With more yeast your dough would become fluffy
+then you will not have these effects in your dough. With more yeast, your dough would become fluffy
 way too fast. You will want those reactions to happen and they take time. If you wait for too
 long then your flour is broken down and you have a sticky unusable dough. The secret
 is to find the balance between long enough and not too long fermentation.
 
-This recipe has been developed during summer time. In summer time the fermentation is faster. Just
+This recipe has been developed during summertime. In summertime the fermentation is faster. Just
 a few degrees change in temperature will make the whole process a lot faster or slower.
 
 So in winter times when it's colder in your kitchen (less than 20°C) use the double amount of yeast.
@@ -68,9 +68,9 @@ by using warmer or colder water.
 
 ![The germination process](/images/germination.png)
 
-The following chapter will assume a 24 hour cycle to make the dough. In my case that would usually be 8 pm, if I wanted to bake the day after at 8pm.
+The following chapter will assume a 24-hour cycle to make the dough. In my case that would usually be 8 pm, if I wanted to bake the day after at 8 pm.
 
-Making pizza and bread is all about the technique. If you are novice, try to stick the to steps as much as possible. The experienced baker can of course slightly alter the recipes.
+Making pizza and bread is all about the technique. If you are a novice, try to stick the to steps as much as possible. The experienced baker can of course slightly alter the recipes.
 
 ### 0:00 Mix all the ingredients
 
@@ -102,10 +102,10 @@ This is the time I usually go to bed and continue in the morning.
 
 ### 12:00 Stretch and fold 5
 
-In my case this takes place at 8 AM.
-Depending on your timing the next morning conduct another stretch and fold. You should see a good amount of gas pockets on your dough. When doing this stretch and fold your dough is likely going to degas a little. Do not worry. Imagine you had used more yeast? All that amazing gas would have been lost over the night.
+In my case, this takes place at 8 AM.
+Depending on your timing the next morning conducts another stretch and fold. You should see a good amount of gas pockets on your dough. When doing this stretch and fold your dough is likely going to degas a little. Do not worry. Imagine you had used more yeast? All that amazing gas would have been lost over the night.
 
-Directly after you finished shaping place the dough on a surface in your kitchen. Below is an example picture of how my dough looks like after the over night bulk ferment. Note the airy structure the dough has.
+Directly after you finished shaping place the dough on a surface in your kitchen. Below is an example picture of how my dough looks like after the overnight bulk fermenting. Note the airy structure the dough has.
 
 ![This is how my dough looks like](https://i.imgur.com/W5JwLZV.jpg)
 
