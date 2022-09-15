@@ -86,7 +86,7 @@ The reason for that lies in the nature of the wheat kernel.  The bread flour is 
 The bran has too much fiber that has a negative consequence on the gluten matrix that you plan to develop.
 
 This of course also depends on each type of wheat that you have. In some specific types, the endosperm might have more protein.
-For instance in Italy in many cases the `Tipo 00` flour is used. The same type of flour in Germany typically.
+For instance in Italy in many cases the `Tipo 00` flour is used. The same type of flour in Germany typically
 has less protein. The more sun the more gluten (protein) wheat will produce.
 
 As the fermentation progresses several enzymes become activated.
