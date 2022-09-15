@@ -143,7 +143,12 @@ Place your dough back in your container and close the lid.
 ### 0:30 hours after mixing: Smooth dough surface
 
 [Make the surface of your dough round.](https://youtu.be/ep0mua88Sa8?t=256) This way the dough will
-be less sticky and easier to handle.
+be less sticky and easier to handle. This technique only
+works if you have no flour on the surface. You drag
+the dough over it, stretching the gluten. If the surface
+of your dough tears, wait another 15 minutes and try again.
+This is the single most important technique to master when
+making pizza and/or bread.
 
 ### 08:00-12:00  After mixing: Dough increased by 50% in size
 
