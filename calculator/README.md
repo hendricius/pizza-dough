@@ -13,3 +13,8 @@ Install the dependencies `bundle install`
 ```
 bin/dev
 ```
+
+# Credentials
+
+Right now there is only a secret session key. You can override this key. Or
+you can ask another dev for the secret key.
