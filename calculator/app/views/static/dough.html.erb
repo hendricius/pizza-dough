@@ -1,0 +1,81 @@
+<div class="results-container">
+  <div class="results-inner">
+    <div class="title">
+      <h1 class="dough-title">Your pizza dough 🍕</h1>
+      <a class="close" href="/">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Back">
+          <path d="M12 9.6L2.4 0L0 2.4L9.6 12L0 21.6L2.4 24L12 14.4L21.6 24L24 21.6L14.4 12L24 2.4L21.6 0L12 9.6Z" fill="white"></path>
+        </svg>
+      </a>
+    </div>
+    <div class="base-info first">
+      <div class="left">Total pizzas:</div>
+      <div class="right"><%= @dough.pizzas %></div>
+    </div>
+    <div class="base-info">
+      <div class="left">Weight per pizza:</div>
+      <div class="right">
+        <%= number_with_delimiter(@dough.weight.to_i) %>g
+      </div>
+    </div>
+    <div class="base-info">
+      <div class="left">Total dough weight:</div>
+      <div class="right">
+        <%= number_with_delimiter((@dough.weight * @dough.pizzas).to_i) %>g
+      </div>
+    </div>
+    <div class="base-info last">
+      <div class="left">Dough type:</div>
+      <div class="right">
+        <%= @dough.dough_type_human %>
+      </div>
+    </div>
+    <h1 class="dough-ingredients">Dough ingredients 🍞</h1>
+    <% @dough.ingredients.each do |ingredient| %>
+      <div class="ingredient-wrapper">
+        <div class="ingredient-base">
+          <div class="ingredient-element"><%= ingredient.name %></div>
+          <div class="ingredient-element number"><%= number_with_precision(ingredient.quantity_grams, precision: ingredient.precision) %>g</div>
+          <div class="ingredient-element number"><%= number_to_percentage(ingredient.percentage * 100, precision: 2) %></div>
+        </div>
+        <% if ingredient.description %>
+          <div class="ingredient-description">
+            <%= ingredient.description.html_safe %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+    <div class="instructions">
+      <h1>Instructions 📚</h1>
+      <a href="https://breadco.de/pizza-text">Written instructions »</a>
+      <a href="https://breadco.de/pizza-video">Video instructions »</a>
+    </div>
+    <a class="share" href="#">
+      <span>
+        Share your dough
+      </span>
+      <%= image_tag "share.png" %>
+    </a>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const shareData = {
+    title: 'Pizza dough recipe',
+    text: 'Check out my pizza dough recipe',
+    url: window.location.href
+  }
+
+  const btn = document.querySelector('.share');
+  btn.href = window.location.href;
+
+  // Share must be triggered by "user activation"
+  btn.addEventListener('click', async (e) => {
+    e.preventDefault();
+    try {
+      await navigator.share(shareData);
+    } catch (err) {
+      window.prompt("Copy to clipboard: Ctrl+C / Cmd+C, Enter", window.location.href);
+    }
+  });
+</script>

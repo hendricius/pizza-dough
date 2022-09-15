@@ -1,15 +1,15 @@
 # Pizza Dough Calculator
 
-This is a small calculator written in react.
+Simple app to calculate pizza dough properties.
 
-## Available Scripts
+# Setup
 
-In the project directory, you can run:
+Install ruby version from `.ruby-version`.
 
-### `npm start` or `yarn start`
+Install the dependencies `bundle install`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Start the server
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```
+bin/dev
+```

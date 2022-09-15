@@ -1,0 +1,115 @@
+<div class="container">
+  <header class="header">
+    <h1 class="logo">
+      <a href="/">
+        <%= image_tag "logo.svg", alt: "Pizza Dough Calculator" %>
+       </a>
+    </h1>
+    <h2 class="logo">
+      <%= image_tag "calculator.svg", alt: "Easily calculate how to make a pizza dough" %>
+    </h2>
+  </header>
+  <main class="main">
+    <%= form_with url: "/dough", method: :get do |form| %>
+      <%= render(
+        InputComponent.new(
+          name: "pizzas",
+          label: "Number of pizzas",
+          value: 2,
+          step: 1,
+        )
+      ) %>
+
+      <%= render(
+        InputComponent.new(
+          name: "weight_per_pizza",
+          label: "Weight per pizza (grams)",
+          value: 250,
+          step: 1,
+        )
+      ) %>
+
+      <%= render(
+        InputComponent.new(
+          name: "hydration",
+          label: "Hydration (Water % optional)",
+          value: "60",
+          step: "1",
+          min: "1",
+          max: "99"
+        )
+      ) %>
+
+      <div class="form-group">
+        <label class="form-label" for="dough_type">Dough type</label>
+        <select name="dough_type" id="dough_type" class="form-input">
+          <option value="yeast" selected="selected">Yeast</option>
+          <option value="sourdough">Sourdough</option>
+        </select>
+      </div>
+
+      <small class="text-muted">
+        <p>
+          1) Pick the amount of pizzas you want to bake and your desired
+          final dough weight. The weight depends on the size of your oven.</p>
+        <p>
+          2) You can optionally select the hydration of your dough or use
+          the default 60%. This value depends on your flour.
+        </p>
+        <p>
+          3) Calculate your perfect pizza dough.
+        </p>
+      </small>
+
+      <%= form.submit "Calculate", class: "calculate-button" %>
+    <% end %>
+
+    <div class="more-info">
+      <h1>Background</h1>
+      <p>
+        Typically the pizza dough weighs between 200 and 280 grams. For a
+        home oven 250 grams is a recommended size. Change this value
+        depending on the size of your oven.
+      </p>
+      <p>
+        A real Neapolitan pizza consists of only flour water and salt.
+        Traditionally sourdough has been used. Sourdough requires more
+        advanced dough handling. Thus for beginners the yeast based dough
+        is recommended. When making a sourdough pizza a stiff sourdough
+        starter is recommended as it will boost the yeast rather than
+        the bacteria. This allows for a longer leavening time.
+      </p>
+      <p>
+        The key is to have all the ingredients in the exact quantity. To
+        calculate how much of each ingredient is used "Baker's Math" is
+        applied. This means the ingredients are calculated based on the
+        amount of flour that you are using. So lets say the ingredient
+        would say 60%, that would mean per every 100 grams of flour you
+        need to add 60 grams of water. This way you can easily scale up
+        the amount of pizzas that you want to bake.
+      </p>
+      <h1>The process</h1>
+      <p>
+        This flowchart shows you the full process of making a dough from
+        start to finish.
+      </p>
+      <%= image_tag "pizza-process.jpg", style: "max-width: 100%;", alt: "Neapolitan pizza flow chart" %>
+      <h1>Instructions</h1>
+      <p>
+        You can read the full written recipe including <a href="https://breadco.de/pizza-text">detailed instructions here.</a>
+      </p>
+      <p>
+        There are also 2 videos showing the full process. One video focuses
+        on making a <a href="https://www.youtube.com/watch?v=l0nAMbbYziI">great yeast based pizza dough.</a>
+        The second video focuses on <a href="https://www.youtube.com/watch?v=-60DxtcJ9Fo">making sourdough pizza.</a>
+      </p>
+      <p>
+        Lastly if you have a question you can <a href="https://thbrco.io/discord">join our discord server</a>. It's
+        a great place to meet likeminded bakers.
+      </p>
+      <p>
+        If you are on Android you can also <a href="https://play.google.com/store/apps/details?id=com.smassive.pizzacalculator">download the free pizza dough app.</a>
+      </p>
+    </div>
+  </main>
+</div>
