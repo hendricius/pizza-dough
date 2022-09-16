@@ -66,16 +66,22 @@
     url: window.location.href
   }
 
-  const btn = document.querySelector('.share');
-  btn.href = window.location.href;
+  const shareButton = document.querySelector('.share');
+  shareButton.href  = window.location.href;
 
-  // Share must be triggered by "user activation"
-  btn.addEventListener('click', async (e) => {
-    e.preventDefault();
-    try {
-      await navigator.share(shareData);
-    } catch (err) {
-      window.prompt("Copy to clipboard: Ctrl+C / Cmd+C, Enter", window.location.href);
+  const fallback = () => {
+    window.prompt("Copy to clipboard: Ctrl+C / Cmd+C, Enter", window.location.href);
+  }
+
+  shareButton.addEventListener('click', async (event) => {
+    event.preventDefault();
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        return;
+      } catch(err) {
+      }
     }
+    fallback();
   });
 </script>
