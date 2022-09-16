@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title><%= meta_title %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="<%= meta_description %>">
     <meta name="keywords" content="pizza dough, pizza dough calculator, neapolitan pizza, pizza calculator, pizza sourdough, the bread code" />
     <link rel="canonical" href="https://pizza-calculator.the-bread-code.io/" />
-    <meta property="og:image" content="<%= image_url('share-image.png') %>"/>
+    <meta property="og:image" content="<%= image_url('share-image.webp') %>"/>
     <%= favicon_link_tag '/favicon.ico' %>
 
     <%= csrf_meta_tags %>
@@ -16,8 +16,10 @@
     <%= javascript_importmap_tags %>
 
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat|Lato"
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Montserrat|Lato&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
   </head>
 

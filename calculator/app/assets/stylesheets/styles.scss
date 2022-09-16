@@ -71,18 +71,11 @@ a {
   }
 }
 
-.calculate-buttons {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: flex;
-}
-
 .calculate-button {
   box-sizing: border-box;
   border: none;
   text-align: center;
-  padding: 8px;
-  font-weight: medium;
+  padding: 15px 10px;
   line-height: normal;
   font-size: 18px;
   text-align: center;
@@ -92,6 +85,8 @@ a {
   cursor: pointer;
   color: #ffffff;
   border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .text-muted {
@@ -99,14 +94,9 @@ a {
 }
 
 .more-info {
-  margin-top: 40px;
   text-align: justify;
   padding-bottom: 20px;
 }
-
-.view-header {
-}
-
 
 /*-------- Form --------*/
 

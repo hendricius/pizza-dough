@@ -54,7 +54,7 @@
       <span>
         Share your dough
       </span>
-      <%= image_tag "share.png" %>
+      <%= image_tag "share.webp" %>
     </a>
   </div>
 </div>
@@ -78,9 +78,9 @@
     if (navigator.share) {
       try {
         await navigator.share(shareData);
-        return;
       } catch(err) {
       }
+      return;
     }
     fallback();
   });

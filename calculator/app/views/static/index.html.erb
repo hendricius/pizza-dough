@@ -2,11 +2,11 @@
   <header class="header">
     <h1 class="logo">
       <a href="/">
-        <%= image_tag "logo.svg", alt: "Pizza Dough Calculator" %>
+        <%= image_tag "logo.svg", style: "height: 125px; width: 126px;", alt: "Pizza Dough Calculator" %>
        </a>
     </h1>
     <h2 class="logo">
-      <%= image_tag "calculator.svg", alt: "Easily calculate how to make a pizza dough" %>
+      <%= image_tag "calculator.svg", style: "height: 22px; width: 168px;", alt: "Easily calculate how to make a pizza dough" %>
     </h2>
   </header>
   <main class="main">
@@ -61,7 +61,7 @@
         </p>
       </small>
 
-      <%= form.submit "Calculate", class: "calculate-button" %>
+      <%= button_tag "Calculate", class: "calculate-button" %>
     <% end %>
 
     <div class="more-info">
@@ -93,7 +93,7 @@
         This flowchart shows you the full process of making a dough from
         start to finish.
       </p>
-      <%= image_tag "pizza-process.jpg", style: "max-width: 100%;", alt: "Neapolitan pizza flow chart" %>
+      <%= image_tag "pizza-process.webp", style: "max-width: 100%;", alt: "Neapolitan pizza flow chart" %>
       <h1>Instructions</h1>
       <p>
         You can read the full written recipe including <a href="https://breadco.de/pizza-text">detailed instructions here.</a>
