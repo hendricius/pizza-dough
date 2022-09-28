@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    command: bash -c "rm -f tmp/pids/server.pid && ./bin/dev"
+    volumes:
+      - .:/opt/app
+    ports:
+      - "3000:3000"
