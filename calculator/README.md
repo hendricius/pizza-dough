@@ -4,9 +4,14 @@ Simple app to calculate pizza dough properties.
 
 # Setup
 
-Install ruby version from `.ruby-version`.
+Setup ruby (check the .ruby-version file).
 
-Install the dependencies `bundle install`
+```bash
+rbenv install 3.1.2
+gem install bundle
+gem install foreman
+bundle install
+```
 
 # Start the server
 
