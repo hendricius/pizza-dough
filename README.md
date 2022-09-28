@@ -30,7 +30,7 @@ The long slow fermentation is the key to making a great tasting dough.
 
 This is an overview of the whole process from start to finish.
 
-![The whole process](/calculator/app/assets/images/pizza-process.jpg)
+![The whole process](/calculator/app/assets/images/pizza-process.webp)
 
 ## Dough Ingredients
 

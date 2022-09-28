@@ -1,4 +1,5 @@
 $small-font: 14px;
+$link-color: #ee5230;
 
 html {
   font-family: "Lato", sans-serif;
@@ -21,7 +22,7 @@ body {
 }
 
 a {
-  color: #45a1f8;
+  color: $link-color;
   text-decoration: none;
 }
 
@@ -60,9 +61,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  a {
-    color: blue;
-  }
 }
 
 @media (min-width: 720px) {
