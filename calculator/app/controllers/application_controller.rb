@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
 
   def meta_title
-    @meta_title || "The Ultimate Pizza Dough Calculator"
+    @meta_title || "The Ultimate Pizza Dough Calculator (perfect pizza)"
   end
   helper_method :meta_title
 
