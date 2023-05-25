@@ -255,7 +255,7 @@ The steel is advised for home ovens as it can transfer heat faster to the pizza 
 If you reached 450°C like in a typical Italian stone oven, stone would be perfect.
 
 Make sure you pre-heat the oven to maximum temperature. If your oven has a grill function, use it.
-Wait until your pizza turns brown on the edge. 
+Wait until your pizza turns brown on the edge.
 If you are interested I made a detailed comparison
 of a [pizza stone, pizza steel and dedicated pizza oven here.](https://youtu.be/l0nAMbbYziI?t=1621)
 
@@ -268,12 +268,22 @@ of a [pizza stone, pizza steel and dedicated pizza oven here.](https://youtu.be/
 
 ## Resources
 
-[RESOURCES.md](RESOURCES.md) gathers all external information we love about pizza dough and pizza in general.
-If it's a blog article, or a research paper, or anything related to pizza... It's there.
+- [The Sourdough Framework (my free sourdough book)](https://github.com/hendricius/the-sourdough-framework)
+- [Jeff Varasano's Famous New York Pizza Recipe](https://www.varasanos.com/PizzaRecipe.htm)
+- [The Physics of baking good Pizza](https://arxiv.org/pdf/1806.08790.pdf)
+* [theBread.code(); YouTube](https://youtube.com/c/thebreadcode)
+* [theBread.code(); Discord](https://breadco.de/discord)
 
-## Disclaimer
+## Support
 
-I in no way claim that all of the information here is scientifically correct.
-This is not a work of professional science, but more a work of my endless research over the years.
-If you can further back some of my observations by scientific articles I would be more than happy if you created a pull request.
+Did you find a typo, or feel the wording could be improved?
+Feel free to open up a pull request at any time.
 
+I believe that the knowledge this book provides is essential to everyone.
+That's why I decided to open source my knowledge hoping
+that it will reach more people all over the world without
+budget constraints.
+
+If you would like to contribute with a small donation you can do so
+via my [ko-fi page.](https://breadco.de/support-me) Your donation will tremendously
+help me to cover costs related to running theBread.code();
