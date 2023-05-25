@@ -1,10 +1,14 @@
 \documentclass[tikz]{standalone}
 \usepackage{tikz}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
 
 \definecolor{pizzared}{RGB}{238, 82, 48}
 \usetikzlibrary{shapes,arrows}
 \tikzstyle{block} = [rectangle, draw, fill=pizzared,  text=white,
-    text width=7em, text centered, rounded corners, minimum height=6em]
+    text width=7em, text centered, rounded corners, minimum height=6em,
+    font=\bfseries]
 \tikzstyle{line} = [draw, -latex']
 
 \begin{document}
