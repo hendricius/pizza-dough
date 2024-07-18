@@ -45,6 +45,10 @@ a {
   margin: 0;
 }
 
+.logo a {
+  display: block;
+}
+
 .main {
   max-width: 90vw;
   display: flex;
