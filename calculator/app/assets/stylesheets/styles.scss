@@ -89,6 +89,7 @@ a {
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .text-muted {
@@ -100,11 +101,9 @@ a {
   padding-bottom: 20px;
 }
 
-/*-------- Form --------*/
-
 .form-group {
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -311,12 +310,17 @@ a {
   justify-content: flex-end;
 }
 
+// Desktop
 @media (min-width: 550px) {
   .ingredient-element {
     font-size: 1.5rem;
   }
   .ingredient-base--breakdown .ingredient-element {
     font-size: 1.25rem;
+  }
+  .form-group {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
   }
 }
 

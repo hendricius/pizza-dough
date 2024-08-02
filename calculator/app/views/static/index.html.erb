@@ -29,7 +29,7 @@
       <%= render(
         InputComponent.new(
           name: "hydration",
-          label: "Hydration (Water % optional)",
+          label: "Hydration (water quantity in %, baker's math)",
           value: "60",
           step: "1",
           min: "1",
@@ -46,6 +46,8 @@
         </select>
       </div>
 
+      <%= button_tag "Calculate", class: "calculate-button" %>
+
       <small class="text-muted">
         <p>
           1) Pick the amount of pizzas you want to bake and your desired
@@ -59,7 +61,6 @@
         </p>
       </small>
 
-      <%= button_tag "Calculate", class: "calculate-button" %>
     <% end %>
 
     <div class="more-info">
