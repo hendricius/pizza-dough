@@ -43,7 +43,7 @@ class Dough
     is_yeast = params[:yeast] ? "yeast" : nil
     is_sourdough = params[:sourdough] ? "sourdough" : nil
     legacy = {
-      dough_type: is_yeast || is_sourdough,
+      dough_type: params[:dough_type] ? params[:dough_type] : is_yeast || is_sourdough,
       pizzas: params[:count],
       hydration: params[:water],
       weight_per_pizza: params[:weight],
@@ -126,7 +126,7 @@ class Dough
       [hydration, salt, sourdough].inject(:+)
     end
   end
-  
+
   def is_yeast?
     dough_type == "yeast"
   end
