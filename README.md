@@ -12,10 +12,9 @@ The recipe contains both a yeast and sourdough option.
 The Neapolitan pizza is characterized by a relatively high edge and a thin center of the pizza.
 The only ingredients required to make the dough are flour, water, salt, and yeast. Historically sourdough has been used as an alternative to yeast.
 
-However, the Neapolitan pizza association (Associazione Verace Pizza Napoletana) [clearly states](http://americas.pizzanapoletana.org/foto/allegati/AVPN_Disciplinare.pdf)
-that only yeast should be used to make the dough. This can be debated as our
-ancestors did not have access to yeast, they were using sourdough for their pizza.
-Also, it can be debated whether our ancestors did truly make pizza since a high amount of gluten
+The Neapolitan pizza association (Associazione Verace Pizza Napoletana) [clearly states](https://www.pizzanapoletana.org/public/pdf/Disciplinare-2024-ENG.pdf)
+that beside yeast also sourdough can be used to make the dough. 
+It can be debated whether our ancestors did truly make pizza since a high amount of gluten
 in the wheat is required to make the dough. The gluten is the core factor that allows us to
 stretch the dough apart and make it thin on the interior. It is also the factor that allows air to
 be trapped inside of the dough, creating the open edge filled with tiny alveoli.
