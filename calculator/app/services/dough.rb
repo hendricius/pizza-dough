@@ -176,7 +176,7 @@ class Dough
       quantity_grams: flour_quantity * sourdough,
       percentage: sourdough,
       description: 'Ideally use a stiff sourdough starter at a hydration of 60%. This helps to boost yeast fermentation while reducing the bacterial fermentation at the same time. By doing so your dough will become fluffier and less sour. You can read more about the topic of stiff starters in my free book <a href="https://breadco.de/book">
-      "The Sourdough Framework" - section 4.3.'
+      "The Sourdough Framework" - section 4.3.</a>'
     )
   end
 
