@@ -69,10 +69,16 @@
   }
 
   const shareButton = document.querySelector('.share');
-  shareButton.href  = window.location.href;
+  shareButton.href = window.location.href;
 
+  // Fallback to manual sharing for unsupported browsers
   const fallback = () => {
-    window.prompt("Copy to clipboard: Ctrl+C / Cmd+C, Enter", window.location.href);
+    const successful = document.execCommand('copy'); // Try copying to clipboard
+    if (successful) {
+      alert("Link copied to clipboard! You can now paste it.");
+    } else {
+      window.prompt("Copy this link manually:", window.location.href);
+    }
   }
 
   shareButton.addEventListener('click', async (event) => {
@@ -80,10 +86,11 @@
     if (navigator.share) {
       try {
         await navigator.share(shareData);
-      } catch(err) {
+      } catch (err) {
+        console.error("Sharing failed", err); // Catch any errors that might occur
       }
-      return;
+    } else {
+      fallback(); // Use fallback if Web Share API is not available
     }
-    fallback();
   });
 </script>
