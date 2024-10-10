@@ -85,6 +85,26 @@ class Dough
     end
   end
 
+  def extract_dough_parameters
+    {
+      hydration: hydration,
+      pizzas: pizzas,
+      weight: weight,
+      dough_type: dough_type,
+      yeast: yeast,
+      sourdough: sourdough,
+      salt: salt
+    }
+  end
+
+  def selected_if_yeast
+    is_yeast? ? 'selected="selected"' : ""
+  end
+
+  def selected_if_sourdough
+    !is_yeast? ? 'selected="selected"' : ""
+  end
+
   private
 
   def ingredients_yeast
