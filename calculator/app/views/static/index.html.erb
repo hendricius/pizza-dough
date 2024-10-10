@@ -12,7 +12,7 @@
         InputComponent.new(
           name: "pizzas",
           label: "Number of pizzas",
-          value: 2,
+          value: @dough.pizzas,
           step: 1,
         )
       ) %>
@@ -21,7 +21,7 @@
         InputComponent.new(
           name: "weight_per_pizza",
           label: "Weight per pizza (grams)",
-          value: 250,
+          value: @dough.weight.to_i,
           step: 1,
         )
       ) %>
@@ -30,7 +30,7 @@
         InputComponent.new(
           name: "hydration",
           label: "Hydration (water quantity in %, baker's math)",
-          value: "60",
+          value: (@dough.hydration * 100).to_i,
           step: "1",
           min: "1",
           max: "99"
@@ -41,8 +41,8 @@
       <div class="form-group">
         <label class="form-label" for="dough_type">Dough type</label>
         <select name="dough_type" id="dough_type" class="form-input">
-          <option value="yeast" selected="selected">Yeast</option>
-          <option value="sourdough">Sourdough</option>
+          <option value="yeast" <%= @dough.selected_if_yeast %>>Yeast</option>
+          <option value="sourdough" <%= @dough.selected_if_sourdough %>>Sourdough</option>
         </select>
       </div>
 

@@ -1,5 +1,6 @@
 class StaticController < ApplicationController
   def index
+    @dough = Dough.from_params(allowed_parameters)
   end
 
   def dough
