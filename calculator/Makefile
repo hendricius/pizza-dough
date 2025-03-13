@@ -5,4 +5,4 @@ up:
 
 .PHONY: deploy
 deploy:
-	bash deploy.sh
+	bundle exec cap production deploy
