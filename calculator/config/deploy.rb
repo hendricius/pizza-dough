@@ -11,3 +11,5 @@ set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/sys
 
 set :rbenv_type, :user
 set :rbenv_ruby, '3.4.2'
+
+set :passenger_restart_with_touch, true
