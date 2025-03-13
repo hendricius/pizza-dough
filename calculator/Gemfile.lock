@@ -78,8 +78,6 @@ GEM
       sshkit (>= 1.6.1, != 1.7.0)
     base64 (0.2.0)
     bcrypt_pbkdf (1.1.1)
-    bcrypt_pbkdf (1.1.1-arm64-darwin)
-    bcrypt_pbkdf (1.1.1-x86_64-darwin)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
     bindex (0.8.1)
@@ -339,7 +337,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.1p31
+   ruby 3.4.2p28
 
 BUNDLED WITH
    2.3.21
