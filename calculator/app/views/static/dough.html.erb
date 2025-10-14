@@ -45,6 +45,27 @@
         <% end %>
       </div>
     <% end %>
+    <h1 class="dough-ingredients">Toppings guide 🍅🧀🌿</h1>
+    <div class="base-info first">
+      <div class="left">Mozzarella total:</div>
+      <div class="right"><%= @dough.mozzarella_total %>g</div>
+    </div>
+    <div class="base-info">
+      <div class="left">Tomato sauce total:</div>
+      <div class="right"><%= @dough.sauce_total %>g</div>
+    </div>
+    <div class="base-info">
+      <div class="left">Olive oil total:</div>
+      <div class="right"><%= @dough.oil_total %>g</div>
+    </div>
+    <div class="base-info">
+      <div class="left">Basil leaves total:</div>
+      <div class="right"><%= @dough.basil_leaves_total %></div>
+    </div>
+    <div class="base-info last">
+      <div class="left">Basil pots (est.):</div>
+      <div class="right"><%= @dough.basil_pots_estimate %> (≈ <%= Dough::BASIL_LEAVES_PER_POT_DEFAULT %> leaves/pot)</div>
+    </div>
     <div class="instructions">
       <h1>Instructions 📚</h1>
       <a href="https://breadco.de/pizza-text">Written instructions »</a>
