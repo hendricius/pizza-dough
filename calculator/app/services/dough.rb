@@ -7,6 +7,13 @@ class Dough
   DEFAULT_SOURDOUGH = 0.05
   DEFAULT_SALT = 0.02
 
+  # Toppings scaling anchors (weight in grams → amount per pizza)
+  MOZZ_ANCHOR = [[250.0, 80.0], [280.0, 100.0]]
+  SAUCE_ANCHOR = [[250.0, 60.0], [280.0, 80.0]]
+  OIL_ANCHOR = [[250.0, 6.0], [280.0, 8.0]]
+  BASIL_ANCHOR = [[250.0, 16.0], [280.0, 20.0]]
+  BASIL_LEAVES_PER_POT_DEFAULT = 80
+
   def initialize(hydration:, pizzas:, weight:, dough_type:, salt:, yeast:, sourdough:)
     @hydration = hydration
     @pizzas = pizzas
@@ -95,6 +102,44 @@ class Dough
       sourdough: sourdough,
       salt: salt
     }
+  end
+
+  # Toppings per pizza (scaled linearly by weight)
+  def mozzarella_per_pizza
+    interpolate(*MOZZ_ANCHOR[0], *MOZZ_ANCHOR[1], weight).round
+  end
+
+  def sauce_per_pizza
+    interpolate(*SAUCE_ANCHOR[0], *SAUCE_ANCHOR[1], weight).round
+  end
+
+  def oil_per_pizza
+    interpolate(*OIL_ANCHOR[0], *OIL_ANCHOR[1], weight).round
+  end
+
+  def basil_leaves_per_pizza
+    interpolate(*BASIL_ANCHOR[0], *BASIL_ANCHOR[1], weight).round
+  end
+
+  # Toppings totals
+  def mozzarella_total
+    mozzarella_per_pizza * pizzas
+  end
+
+  def sauce_total
+    sauce_per_pizza * pizzas
+  end
+
+  def oil_total
+    oil_per_pizza * pizzas
+  end
+
+  def basil_leaves_total
+    basil_leaves_per_pizza * pizzas
+  end
+
+  def basil_pots_estimate(leaves_per_pot = BASIL_LEAVES_PER_POT_DEFAULT)
+    (basil_leaves_total.to_f / leaves_per_pot).ceil
   end
 
   def selected_if_yeast
@@ -198,6 +243,11 @@ class Dough
       description: 'Ideally use a stiff sourdough starter at a hydration of 60%. This helps to boost yeast fermentation while reducing the bacterial fermentation at the same time. By doing so your dough will become fluffier and less sour. You can read more about the topic of stiff starters in my free book <a href="https://breadco.de/book">
       "The Sourdough Framework" - section 4.3.</a>'
     )
+  end
+
+  # Linear interpolation between 2 anchor points (x1,y1) and (x2,y2)
+  def interpolate(x1, y1, x2, y2, x)
+    y1 + (y2 - y1) * (x - x1) / (x2 - x1)
   end
 
   class Ingredient

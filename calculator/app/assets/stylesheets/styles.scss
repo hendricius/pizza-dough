@@ -1,10 +1,11 @@
 $small-font: 14px;
 $link-color: #ee5230;
+$background-color: #F8F3F0;
 
 html {
   font-family: "Lato", sans-serif;
   font-style: normal;
-  background: #f8f8f8;
+  background: $background-color;
 }
 
 html,
@@ -119,7 +120,7 @@ a {
   overflow: hidden;
   white-space: nowrap;
   opacity: 1;
-  background: #f8f8f8;
+  background: $background-color;
   position: relative;
   top: 7px;
   left: 10px;
