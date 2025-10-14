@@ -334,3 +334,47 @@ a {
   max-width: 80%;
   overflow: hidden;
 }
+
+@media print {
+  @page { size: A4; margin: 12mm; }
+
+  html, body { background: #fff !important; color: #000 !important; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html, body { font-size: 10pt; line-height: 1.25; }
+
+  .results-container { background: #fff !important; color: #000 !important; }
+  .results-container .results-inner { max-width: none !important; padding: 0 !important; }
+
+  /* Hide UI not needed on paper */
+  .results-container .title .close,
+  .results-container .instructions,
+  .results-container .share { display: none !important; }
+
+  /* Clear table-like look */
+  .base-info { border-bottom: 1px solid #000 !important; }
+  .ingredient-wrapper { border-bottom: 1px solid #000 !important; }
+
+  /* Avoid awkward page breaks */
+  .base-info,
+  .ingredient-wrapper { break-inside: avoid; page-break-inside: avoid; }
+
+  /* Smaller type and tighter spacing to fit on one page */
+  .dough-title,
+  .dough-ingredients { font-size: 14pt !important; }
+
+  .base-info { font-size: 11pt !important; margin-bottom: 6px !important; padding-bottom: 6px !important; }
+
+  .ingredient-wrapper { padding: 8px 0 !important; }
+
+  .ingredient-element {
+    font-size: 11pt !important;
+    white-space: normal !important;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  .ingredient-base--breakdown .ingredient-element { font-size: 9pt !important; }
+  .ingredient-description { font-size: 9pt !important; margin-top: 6px !important; }
+
+  /* Print links as plain text */
+  a { color: inherit !important; text-decoration: none !important; }
+}
