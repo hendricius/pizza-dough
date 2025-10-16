@@ -45,6 +45,17 @@
         <% end %>
       </div>
     <% end %>
+    <% video_url = (@dough.dough_type == "yeast") ? "https://www.youtube.com/watch?v=l0nAMbbYziI" : "https://www.youtube.com/watch?v=-60DxtcJ9Fo" %>
+    <div class="instructions instructions-cta">
+      <h1>Make the dough next 📚</h1>
+      <p>Your ingredients are calculated. Follow the steps below to mix, ferment, and bake.</p>
+      <div class="cta-group">
+        <div><a class="cta" href="https://breadco.de/pizza-text" target="_blank" rel="noopener">Read the full recipe »</a></div>
+        <div><a class="cta" href="<%= video_url %>" target="_blank" rel="noopener">Watch the video »</a></div>
+        <div><a class="cta" href="https://breadco.de/support" target="_blank" rel="noopener">Support & Buy me flour »</a></div>
+        <div><a class="cta primary" href="https://breadco.de/hardcover-book" target="_blank" rel="noopener">Support & Buy my book »</a></div>
+      </div>
+    </div>
     <h1 class="dough-ingredients">Toppings guide 🍅🧀🌿</h1>
     <div class="base-info first">
       <div class="left">Mozzarella total:</div>
@@ -66,19 +77,19 @@
       <div class="left">Basil pots (est.):</div>
       <div class="right"><%= @dough.basil_pots_estimate %> (≈ <%= Dough::BASIL_LEAVES_PER_POT_DEFAULT %> leaves/pot)</div>
     </div>
-    <div class="instructions">
-      <h1>Instructions 📚</h1>
-      <a href="https://breadco.de/pizza-text">Written instructions »</a>
-      <a href="https://breadco.de/pizza-video">Video instructions »</a>
-      <a href="https://breadco.de/book">My free sourdough book »</a>
-      <a href="https://breadco.de/hardcover-book">My hardcover book »</a>
+
+    <div class="actions">
+      <a class="action share" href="#">
+        <span>
+          Share dough
+        </span>
+        <%= image_tag "share.webp" %>
+      </a>
+      <a class="action print" href="#">
+        <span>Print recipe</span>
+        <span class="icon">🖨️</span>
+      </a>
     </div>
-    <a class="share" href="#">
-      <span>
-        Share your dough
-      </span>
-      <%= image_tag "share.webp" %>
-    </a>
   </div>
 </div>
 
@@ -114,4 +125,13 @@
       fallback(); // Use fallback if Web Share API is not available
     }
   });
+
+  // Print button handler
+  const printButton = document.querySelector('.print');
+  if (printButton) {
+    printButton.addEventListener('click', (event) => {
+      event.preventDefault();
+      window.print();
+    });
+  }
 </script>
