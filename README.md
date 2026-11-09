@@ -5,6 +5,8 @@ The recipe is inspired by the traditional neapolitan pizza.
 It has however been adapted to work better in a home kitchen setup.
 The recipe contains both a yeast and sourdough option.
 
+The same recipe is also a web page, step by step, with a calculator that scales it to any number of pizzas: [Neapolitan pizza dough recipe](https://pizza-calculator.the-bread-code.io/neapolitan-pizza-dough-recipe).
+
 ![The perfect pizza dough](/images/shaping-pizza.jpg)
 
 ## Background
